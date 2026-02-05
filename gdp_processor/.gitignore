@@ -4,6 +4,8 @@ __pycache__/
 *$py.class
 *.so
 .Python
+
+# Virtual environment
 venv/
 ENV/
 env/
@@ -15,10 +17,16 @@ build/
 .ipynb_checkpoints/
 *.ipynb
 
-# Data (exclude large data files from git)
-data/aligned/*.csv
-data/filled/*.csv
-output/
+# Output files (exclude generated data from git)
+outputs/01_normalized/*.csv
+outputs/02_rebased/*.csv
+outputs/03_panel/*.csv
+outputs/04_imputed/*.csv
+outputs/05_summary/*.csv
+
+# Keep directory structure but ignore contents
+outputs/*/*.csv
+!outputs/.gitkeep
 
 # IDE
 .vscode/
@@ -34,3 +42,6 @@ Thumbs.db
 # Logs
 *.log
 logs/
+
+# Data (raw data should be symlinked, not committed)
+data/raw/*.csv

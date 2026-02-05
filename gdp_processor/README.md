@@ -1,506 +1,364 @@
-# GDP Data Processing System
+# GDP Data Processing Pipeline
 
-## Project Overview
-
-This project processes 20 GDP CSV files from different data sources to solve issues with inconsistent reference years and missing data, ultimately generating a unified and complete GDP dataset with visualizations.
+A modular, stage-based pipeline for processing GDP data from multiple sources (1800-2025) across 200 countries.
 
 ---
 
-## Problem Statement
+## 🎯 Project Overview
 
-### Data Source Information
-- **Number of Sources**: 20 CSV files
-- **Coverage**: 200 countries, years 1800-2025
-- **Reference Years**: 11 different reference years (making data incomparable directly)
+This project processes 20+ GDP CSV files from different databases with:
+- **11 different reference years** (incomparable directly)
+- **Missing countries** in some databases
+- **Missing year data** for various countries
 
-### Main Issues
-1. **Missing Countries**: Some countries are absent in certain databases
-2. **Inconsistent Reference Years**: 20 data sources correspond to 11 different reference years
-3. **Missing Year Data**: Some countries have missing data for certain years
+**Goal**: Create a unified, complete GDP dataset with consistent reference year and filled gaps.
 
 ---
 
-## Solution Approach
+## 📊 Processing Pipeline
 
-### Task 1: Reference Year Alignment
-Convert all CSV data to a selected reference year, generating 20 new aligned CSV files.
+The pipeline consists of 5 sequential stages, each producing intermediate outputs:
 
-**Key Technical Points**:
-- GDP year conversion formula: `GDP_new = GDP_old × (Price_Index_new / Price_Index_old)`
-- Use GDP deflator or CPI for price adjustment
-
-### Task 2: Gap Filling
-For missing year data, use the average GDP annual growth rate of each data source for interpolation.
-
-**Key Technical Points**:
-- Calculate average annual growth rate for each country in each data source
-- Forward/backward fill missing values
-- Use exponential growth model: `GDP_t = GDP_{t-1} × (1 + growth_rate)`
-
-### Task 3: Data Visualization
-Generate simple visualizations to display processing results.
-
-**Visualization Content**:
-- Data completeness heatmap (Country × Year)
-- GDP trend line comparison (before/after processing)
-- Missing data distribution statistics
+```
+data/raw/*.csv
+    │
+    ├─ pwt_gdp/*.csv       (Penn World Table)
+    ├─ mpd_gdp/*.csv       (Maddison Project)
+    ├─ wdi_gdp/*.csv       (World Bank WDI)
+    ├─ un_gdp/*.csv        (UN Data)
+    └─ barroursua_gdp/*.csv
+    │
+    ▼
+[Stage 01] Normalization
+    │  → Standardize column names, data types, country codes
+    │  → Output: outputs/01_normalized/*.csv
+    │
+    ▼
+[Stage 02] Rebasing
+    │  → Convert all GDP values to target reference year (2017)
+    │  → Formula: GDP_new = GDP_old × (Deflator_2017 / Deflator_source)
+    │  → Output: outputs/02_rebased/*.csv
+    │
+    ▼
+[Stage 03] Panel Structure
+    │  → Complete country-year combinations (no value filling yet)
+    │  → Output: outputs/03_panel/*.csv
+    │
+    ▼
+[Stage 04] Imputation
+    │  → Fill missing values using growth rate interpolation
+    │  → Output: outputs/04_imputed/*.csv
+    │
+    ▼
+[Stage 05] Summary Statistics
+    │  → Generate missing data & growth rate reports
+    │  → Output: outputs/05_summary/*.csv
+```
 
 ---
 
-## Program Architecture
-
-### Directory Structure
+## 📁 Directory Structure
 
 ```
 gdp_processor/
-├── README.md                  # This document
-├── requirements.txt           # Python dependencies
-├── config.py                  # Configuration file
-├── main.py                    # Main program entry
 │
-├── modules/                   # Core modules
-│   ├── __init__.py
-│   ├── data_loader.py         # Data loading module
-│   ├── year_converter.py      # Reference year conversion module
-│   ├── gap_filler.py          # Gap filling module
-│   ├── visualizer.py          # Visualization module
-│   └── utils.py               # Utility functions
+├── README.md                    # This file
+├── config.py                    # Configuration & parameters
+├── requirements.txt             # Python dependencies
+├── .gitignore                   # Git ignore rules
 │
-├── data/                      # Data directory
-│   ├── raw/                   # Original CSV files
-│   │   ├── pwt_gdp/          # Penn World Table data
-│   │   ├── mpd_gdp/          # Maddison Project data
-│   │   ├── wdi_gdp/          # World Bank WDI data
-│   │   ├── un_gdp/           # UN data
-│   │   └── barroursua_gdp/   # Barro-Ursua data
-│   │
-│   ├── aligned/               # Task 1: Aligned CSV files
-│   ├── filled/                # Task 2: Gap-filled CSV files
-│   └── metadata/              # Metadata (reference year mappings, missing statistics)
+├── scripts/                     # Processing scripts (one per stage)
+│   ├── stage_01_normalize.py   # Standardize fields & types
+│   ├── stage_02_rebase.py      # Reference year conversion
+│   ├── stage_03_panel.py       # Complete country-year structure
+│   ├── stage_04_impute.py      # Fill missing values
+│   ├── stage_05_summarize.py   # Generate statistics
+│   └── run_pipeline.py         # Full pipeline orchestrator
 │
-├── output/                    # Output results
-│   ├── logs/                  # Log files
-│   ├── visualizations/        # Visualization charts
-│   └── reports/               # Processing reports
+├── data/
+│   ├── raw/                     # Original CSV files (symlinked)
+│   └── metadata/                # Deflator data, country mappings
 │
-└── tests/                     # Tests (optional)
-    ├── test_converter.py
-    └── test_filler.py
+└── outputs/                     # Stage outputs
+    ├── 01_normalized/           # Stage 1 output
+    ├── 02_rebased/              # Stage 2 output
+    ├── 03_panel/                # Stage 3 output
+    ├── 04_imputed/              # Stage 4 output
+    └── 05_summary/              # Stage 5 output (reports)
 ```
 
 ---
 
-## Core Module Design
+## 🔧 Stage Details
 
-### 1. `data_loader.py` - Data Loading Module
+### Stage 01: Normalization
+**Script**: `scripts/stage_01_normalize.py`
 
-**Functionality**:
-- Scan and load all GDP CSV files
-- Extract data source metadata (name, reference year, year range)
-- Standardize data format (country codes, year columns)
+**Purpose**: Standardize heterogeneous CSV files
 
-**Key Functions**:
-```python
-def load_all_datasets(data_dir: str) -> Dict[str, pd.DataFrame]:
-    """Load all CSV files into a dictionary"""
-    
-def extract_metadata(df: pd.DataFrame, source_name: str) -> Dict:
-    """Extract data source metadata"""
-    
-def standardize_format(df: pd.DataFrame) -> pd.DataFrame:
-    """Standardize data format (country codes, column names, etc.)"""
+**Operations**:
+- Map varying column names to standard schema: `[iso3, country, year, gdp, source]`
+- Convert data types (year → int, gdp → float)
+- Standardize country codes to ISO 3166-1 alpha-3
+- Remove duplicates
+
+**Input**: `data/raw/*.csv`  
+**Output**: `outputs/01_normalized/<source>.csv`
+
+**Example**:
+```
+Before: countryname, yr, rgdpna
+After:  country, year, gdp
 ```
 
 ---
 
-### 2. `year_converter.py` - Reference Year Conversion Module
+### Stage 02: Rebasing
+**Script**: `scripts/stage_02_rebase.py`
 
-**Functionality**:
-- Convert GDP values of all data sources based on target reference year
-- Apply GDP deflator or price index for adjustment
-- Save aligned CSV files
+**Purpose**: Convert all GDP values to a single reference year (2017)
 
-**Key Functions**:
-```python
-def get_conversion_factor(
-    source_ref_year: int, 
-    target_ref_year: int, 
-    country: str
-) -> float:
-    """Calculate conversion factor"""
-    
-def convert_gdp_to_reference_year(
-    df: pd.DataFrame, 
-    target_ref_year: int
-) -> pd.DataFrame:
-    """Convert GDP data to target reference year"""
-    
-def batch_convert_all_sources(
-    datasets: Dict[str, pd.DataFrame], 
-    target_ref_year: int, 
-    output_dir: str
-) -> None:
-    """Batch convert all data sources"""
+**Operations**:
+- Load GDP deflator data for each country and year
+- Calculate conversion factor: `factor = Deflator_2017 / Deflator_source`
+- Apply conversion: `GDP_2017 = GDP_source × factor`
+- Preserve original values as metadata
+
+**Input**: `outputs/01_normalized/*.csv`  
+**Output**: `outputs/02_rebased/*.csv`
+
+**Formula**:
 ```
-
-**Conversion Formula**:
-```
-GDP_target = GDP_source × (Deflator_target / Deflator_source)
+GDP_target = GDP_source × (Price_Index_target / Price_Index_source)
 ```
 
 ---
 
-### 3. `gap_filler.py` - Gap Filling Module
+### Stage 03: Panel Structure
+**Script**: `scripts/stage_03_panel.py`
 
-**Functionality**:
-- Detect missing years in each data source
+**Purpose**: Create complete country-year grids (no value filling)
+
+**Operations**:
+- Extract unique countries from each source
+- Generate full year range (1800-2025) for each country
+- Mark existing vs. missing data points
+- **Do NOT** fill missing values (just structure)
+
+**Input**: `outputs/02_rebased/*.csv`  
+**Output**: `outputs/03_panel/*.csv`
+
+**Schema**:
+```csv
+iso3,country,year,gdp,source,is_missing
+USA,United States,2000,12345.67,pwt_11,FALSE
+USA,United States,2001,,pwt_11,TRUE
+```
+
+---
+
+### Stage 04: Imputation
+**Script**: `scripts/stage_04_impute.py`
+
+**Purpose**: Fill missing GDP values using growth rate interpolation
+
+**Operations**:
 - Calculate average annual growth rate for each country
-- Fill missing data using growth rate
-
-**Key Functions**:
-```python
-def detect_missing_years(
-    df: pd.DataFrame, 
-    country: str, 
-    year_range: Tuple[int, int]
-) -> List[int]:
-    """Detect missing years"""
-    
-def calculate_avg_growth_rate(
-    df: pd.DataFrame, 
-    country: str
-) -> float:
-    """Calculate average GDP annual growth rate"""
-    
-def fill_missing_gdp(
-    df: pd.DataFrame, 
-    country: str, 
-    missing_years: List[int], 
-    avg_growth_rate: float
-) -> pd.DataFrame:
-    """Fill missing GDP data"""
-    
-def batch_fill_all_sources(
-    aligned_dir: str, 
-    output_dir: str
-) -> None:
-    """Batch fill all data sources"""
-```
-
-**Filling Strategy**:
 - Forward fill: `GDP_t = GDP_{t-1} × (1 + r)`
 - Backward fill: `GDP_t = GDP_{t+1} / (1 + r)`
-- Prioritize forward fill, backward fill as supplement
+- Limit fill distance (max 10 years forward, 5 backward)
 
----
+**Input**: `outputs/03_panel/*.csv`  
+**Output**: `outputs/04_imputed/*.csv`
 
-### 4. `visualizer.py` - Visualization Module
-
-**Functionality**:
-- Generate data completeness heatmaps
-- Plot GDP trend comparison charts
-- Visualize missing data distribution statistics
-
-**Key Functions**:
+**Strategy**:
 ```python
-def plot_data_completeness_heatmap(
-    df: pd.DataFrame, 
-    output_path: str
-) -> None:
-    """Plot data completeness heatmap"""
-    
-def plot_gdp_trends(
-    countries: List[str], 
-    datasets: Dict[str, pd.DataFrame], 
-    output_path: str
-) -> None:
-    """Plot GDP trends for multiple countries"""
-    
-def plot_missing_data_statistics(
-    datasets: Dict[str, pd.DataFrame], 
-    output_path: str
-) -> None:
-    """Plot missing data statistics"""
-    
-def generate_summary_report(
-    datasets: Dict[str, pd.DataFrame], 
-    output_path: str
-) -> None:
-    """Generate processing summary report"""
+# Example: Missing 2005-2007
+growth_rate = mean(year-over-year growth from available data)
+GDP_2005 = GDP_2004 × (1 + r)
+GDP_2006 = GDP_2005 × (1 + r)
+GDP_2007 = GDP_2006 × (1 + r)
 ```
 
 ---
 
-### 5. `utils.py` - Utility Functions
+### Stage 05: Summary Statistics
+**Script**: `scripts/stage_05_summarize.py`
 
-**Functionality**:
-- Logging setup
-- File I/O helper functions
-- Data validation
+**Purpose**: Generate data quality and imputation reports
 
-**Key Functions**:
-```python
-def setup_logger(log_path: str) -> logging.Logger:
-    """Set up logger"""
-    
-def validate_dataframe(df: pd.DataFrame) -> bool:
-    """Validate dataframe format"""
-    
-def save_csv_with_metadata(
-    df: pd.DataFrame, 
-    output_path: str, 
-    metadata: Dict
-) -> None:
-    """Save CSV with metadata"""
-```
+**Operations**:
+- Count missing data points per source
+- Calculate average growth rates per country
+- Compare original vs. imputed coverage
+- Generate summary tables
+
+**Input**: `outputs/04_imputed/*.csv`  
+**Output**: `outputs/05_summary/*.csv`
+
+**Reports**:
+- `missing_data_summary.csv` - Missing data statistics
+- `growth_rate_summary.csv` - Calculated growth rates
+- `coverage_comparison.csv` - Before/after coverage
 
 ---
 
-## Configuration File (`config.py`)
+## 🚀 Quick Start
 
-```python
-"""
-Configuration Parameters
-"""
-
-# Target reference year (e.g., 2017 PPP)
-TARGET_REFERENCE_YEAR = 2017
-
-# Data paths
-DATA_DIR = "./data/raw"
-ALIGNED_DIR = "./data/aligned"
-FILLED_DIR = "./data/filled"
-OUTPUT_DIR = "./output"
-
-# GDP deflator data source (for year conversion)
-DEFLATOR_SOURCE = "./data/metadata/gdp_deflator.csv"
-
-# Processing parameters
-MIN_YEAR = 1800
-MAX_YEAR = 2025
-MIN_DATA_POINTS = 5  # Minimum data points for growth rate calculation
-
-# Visualization parameters
-FIGURE_SIZE = (14, 8)
-DPI = 300
-COLORMAP = "YlGnBu"
-
-# Data source metadata
-DATA_SOURCE_METADATA = {
-    "pwt_11": {"ref_year": 2017, "name": "Penn World Table 11"},
-    "mpd_2023": {"ref_year": 2011, "name": "Maddison Project 2023"},
-    "wdi_ppp1": {"ref_year": 2017, "name": "World Bank WDI PPP"},
-    # ... other data sources
-}
-```
-
----
-
-## Main Program (`main.py`)
-
-```python
-"""
-Main Program Entry Point
-"""
-import logging
-from pathlib import Path
-from modules.data_loader import load_all_datasets
-from modules.year_converter import batch_convert_all_sources
-from modules.gap_filler import batch_fill_all_sources
-from modules.visualizer import (
-    plot_data_completeness_heatmap,
-    plot_gdp_trends,
-    generate_summary_report
-)
-from modules.utils import setup_logger
-from config import (
-    DATA_DIR, ALIGNED_DIR, FILLED_DIR, OUTPUT_DIR,
-    TARGET_REFERENCE_YEAR
-)
-
-def main():
-    """Main function"""
-    # 1. Setup logging
-    logger = setup_logger(f"{OUTPUT_DIR}/logs/processing.log")
-    logger.info("Starting GDP data processing pipeline")
-    
-    # 2. Task 1: Load raw data
-    logger.info("Step 1/3: Loading raw data")
-    datasets = load_all_datasets(DATA_DIR)
-    logger.info(f"Successfully loaded {len(datasets)} data sources")
-    
-    # 3. Task 2: Reference year alignment
-    logger.info(f"Step 2/3: Converting to reference year {TARGET_REFERENCE_YEAR}")
-    batch_convert_all_sources(
-        datasets, 
-        TARGET_REFERENCE_YEAR, 
-        ALIGNED_DIR
-    )
-    logger.info(f"Aligned data saved to {ALIGNED_DIR}")
-    
-    # 4. Task 3: Gap filling
-    logger.info("Step 3/3: Filling missing data")
-    batch_fill_all_sources(ALIGNED_DIR, FILLED_DIR)
-    logger.info(f"Filled data saved to {FILLED_DIR}")
-    
-    # 5. Visualization
-    logger.info("Generating visualization reports")
-    filled_datasets = load_all_datasets(FILLED_DIR)
-    
-    # Plot heatmaps
-    for name, df in filled_datasets.items():
-        plot_data_completeness_heatmap(
-            df, 
-            f"{OUTPUT_DIR}/visualizations/{name}_heatmap.png"
-        )
-    
-    # Plot trend comparison
-    plot_gdp_trends(
-        countries=["USA", "CHN", "IND", "DEU", "JPN"],
-        datasets=filled_datasets,
-        output_path=f"{OUTPUT_DIR}/visualizations/gdp_trends.png"
-    )
-    
-    # Generate summary report
-    generate_summary_report(
-        filled_datasets,
-        f"{OUTPUT_DIR}/reports/summary.txt"
-    )
-    
-    logger.info("Processing complete!")
-
-if __name__ == "__main__":
-    main()
-```
-
----
-
-## Dependencies (`requirements.txt`)
-
-```txt
-pandas>=2.0.0
-numpy>=1.24.0
-matplotlib>=3.7.0
-seaborn>=0.12.0
-openpyxl>=3.1.0
-tqdm>=4.65.0
-```
-
----
-
-## Execution Workflow
-
-### Step 1: Environment Setup
+### 1. Install Dependencies
 ```bash
-# Create virtual environment
+cd gdp_processor
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
-
-# Install dependencies
 pip install -r requirements.txt
 ```
 
-### Step 2: Configure Parameters
-Edit `config.py` to set:
-- Target reference year
-- Data paths
-- Data source metadata (reference year mappings)
+### 2. Configure Settings
+Edit `config.py`:
+- Set `TARGET_REFERENCE_YEAR` (default: 2017)
+- Adjust year range if needed
+- Configure imputation parameters
 
-### Step 3: Run Program
+### 3. Run Pipeline
+
+**Option A: Full pipeline (all stages)**
 ```bash
-python main.py
+python scripts/run_pipeline.py
 ```
 
-### Step 4: View Results
-- Aligned data: `data/aligned/`
-- Filled data: `data/filled/`
-- Visualizations: `output/visualizations/`
-- Reports: `output/reports/`
+**Option B: Individual stages**
+```bash
+python scripts/stage_01_normalize.py
+python scripts/stage_02_rebase.py
+python scripts/stage_03_panel.py
+python scripts/stage_04_impute.py
+python scripts/stage_05_summarize.py
+```
+
+### 4. View Results
+- Normalized data: `outputs/01_normalized/`
+- Rebased data: `outputs/02_rebased/`
+- Panel structure: `outputs/03_panel/`
+- Imputed data: `outputs/04_imputed/`
+- Summary reports: `outputs/05_summary/`
 
 ---
 
-## Technical Challenges & Solutions
+## 📦 Dependencies
 
-### Challenge 1: Obtaining Conversion Factors for Reference Years
-**Problem**: GDP deflator data between different reference years may be missing
+```txt
+pandas>=2.0.0      # Data manipulation
+numpy>=1.24.0      # Numerical operations
+tqdm>=4.65.0       # Progress bars
+```
 
-**Solution**:
-1. Prioritize using GDP deflator data from World Bank or OECD
-2. If missing, use CPI (Consumer Price Index) as substitute
-3. For extreme cases, use proxy data from neighboring countries (refer to `proxy_scaling.csv`)
-
-### Challenge 2: Diverse Missing Data Patterns
-**Problem**: Missing data can be continuous, discrete, or entire time periods
-
-**Solution**:
-1. Continuous gaps: Use linear or exponential interpolation
-2. Discrete gaps: Fill using average growth rate
-3. Entire period gaps: Mark as unfillable, generate warning logs
-
-### Challenge 3: Non-uniform Data Source Formats
-**Problem**: 20 CSV files have different column names and country code formats
-
-**Solution**:
-1. Implement intelligent column name detection in `data_loader.py`
-2. Standardize using ISO 3166 country codes
-3. Create mapping tables to handle different naming conventions
+Optional:
+```txt
+matplotlib>=3.7.0  # Visualization
+seaborn>=0.12.0    # Statistical plots
+```
 
 ---
 
-## Data Quality Checks
+## 🔍 Data Sources
 
-The program automatically generates the following quality reports:
+| Source | Reference Year | Count | Description |
+|--------|---------------|-------|-------------|
+| PWT (Penn World Table) | 1996-2017 | 13 versions | Comparable international data |
+| MPD (Maddison Project) | 1990-2011 | 5 versions | Long-run historical GDP |
+| WDI (World Bank) | 2011-2017 | 3 datasets | PPP-adjusted GDP |
+| UN Data | 2015 | 1 dataset | UN statistics |
+| Barro-Ursua | 2009 | 1 dataset | Macroeconomic data |
 
-1. **Data Completeness Statistics**
-   - Number of countries covered by each data source
-   - Time span of each data source
-   - Missing data percentage
-
-2. **Conversion Quality Checks**
-   - Value reasonableness check before/after conversion
-   - Outlier detection (GDP change > 50%)
-
-3. **Filling Quality Checks**
-   - Number of filled data points
-   - Deviation of filled values from adjacent real values
+**Total**: 23 data sources covering 200 countries (1800-2025)
 
 ---
 
-## Extensibility Considerations
+## ⚙️ Configuration
 
-While designed for this specific batch of data, the code maintains extensibility:
+Key parameters in `config.py`:
 
-- Modular design for easy debugging and modification
-- Separated configuration for easy parameter adjustment
-- Comprehensive logging for problem tracking
-- Visualization output for result verification
+```python
+# Target reference year
+TARGET_REFERENCE_YEAR = 2017
 
----
+# Year range
+MIN_YEAR = 1800
+MAX_YEAR = 2025
 
-## Expected Timeline
-
-- **Development Time**: 1-2 days
-- **Execution Time**: ~5-15 minutes (depending on data volume)
-
----
-
-## Important Notes
-
-1. **Data Backup**: Back up original CSV files before running
-2. **Reference Year Selection**: Recommend choosing the year with most data sources (e.g., 2017)
-3. **Memory Usage**: Loading 20 datasets simultaneously may use 500MB-2GB of memory
-4. **Result Verification**: Recommend spot-checking conversion and filling results for a few countries
+# Imputation settings
+MIN_DATA_POINTS = 5         # Min points for growth calculation
+FORWARD_FILL_LIMIT = 10     # Max years to forward fill
+BACKWARD_FILL_LIMIT = 5     # Max years to backward fill
+```
 
 ---
 
-## Contact & Support
+## 🧪 Quality Checks
 
-For issues, please check:
-1. `output/logs/processing.log` - Detailed logs
-2. `output/reports/summary.txt` - Processing summary
-3. Console output - Real-time progress
+Each stage includes validation:
+
+1. **Normalization**: Check column completeness
+2. **Rebasing**: Validate conversion factors (no extreme values)
+3. **Panel**: Ensure complete country-year grid
+4. **Imputation**: Flag excessive interpolation (>10 years)
+5. **Summary**: Report data coverage statistics
 
 ---
 
-**Document Version**: v1.0  
-**Last Updated**: 2026-02-05
+## 📈 Example Output
+
+**After Stage 04 (Imputed Data)**:
+```csv
+iso3,country,year,gdp,source,is_imputed,imputation_method
+USA,United States,2000,12345.67,pwt_11,FALSE,
+USA,United States,2001,12678.90,pwt_11,TRUE,forward_fill
+USA,United States,2002,13012.34,pwt_11,TRUE,forward_fill
+USA,United States,2003,13500.00,pwt_11,FALSE,
+```
+
+**Stage 05 Summary Report**:
+```csv
+source,total_countries,total_years,missing_before,missing_after,imputed_count
+pwt_11,180,226,4567,123,4444
+mpd_2023,190,226,8901,234,8667
+```
+
+---
+
+## 🛠️ Troubleshooting
+
+**Issue: Missing deflator data**
+- Use proxy countries (see `data/metadata/proxy_scaling.csv`)
+- Fallback to CPI data
+
+**Issue: Extreme growth rates (>50%)**
+- Flag for manual review
+- Consider outlier detection
+
+**Issue: Large gaps (>10 years)**
+- Do not impute (mark as unfillable)
+- Report in summary statistics
+
+---
+
+## 📝 Notes
+
+- **Modular Design**: Each stage is independent and reusable
+- **Intermediate Outputs**: All stage outputs are saved for inspection
+- **No Side Effects**: Original data is never modified
+- **Reproducibility**: Pipeline can be re-run from any stage
+
+---
+
+## 🔗 Related Files
+
+- `config.py` - Configuration parameters
+- `requirements.txt` - Python dependencies
+- `.gitignore` - Excluded files (large CSVs)
+
+---
+
+**Version**: 1.0  
+**Last Updated**: 2026-02-05  
+**Pipeline Status**: Structure defined, scripts to be implemented
