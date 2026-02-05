@@ -1,0 +1,217 @@
+iso_num,country,group
+12,Algeria,Group 1: Backbone complete
+24,Angola,Group 1: Backbone complete
+31,Azerbaijan,Group 1: Backbone complete
+36,Australia,Group 1: Backbone complete
+48,Bahrain,Group 1: Backbone complete
+50,Bangladesh,Group 1: Backbone complete
+52,Barbados,Group 1: Backbone complete
+70,Bosnia and Herzegovina,Group 1: Backbone complete
+72,Botswana,Group 1: Backbone complete
+108,Burundi,Group 1: Backbone complete
+120,Cameroon,Group 1: Backbone complete
+132,Cabo Verde,Group 1: Backbone complete
+140,Central African Republic,Group 1: Backbone complete
+144,Sri Lanka,Group 1: Backbone complete
+148,Chad,Group 1: Backbone complete
+174,Comoros,Group 1: Backbone complete
+178,"Congo, Rep.",Group 1: Backbone complete
+180,"Congo, Dem. Rep.",Group 1: Backbone complete
+192,Cuba,Group 1: Backbone complete
+196,Cyprus,Group 1: Backbone complete
+203,Czech Republic,Group 1: Backbone complete
+204,Benin,Group 1: Backbone complete
+212,Dominica,Group 1: Backbone complete
+226,Equatorial Guinea,Group 1: Backbone complete
+246,Finland,Group 1: Backbone complete
+262,Djibouti,Group 1: Backbone complete
+266,Gabon,Group 1: Backbone complete
+268,Georgia,Group 1: Backbone complete
+270,Gambia,Group 1: Backbone complete
+275,West Bank and Gaza,Group 1: Backbone complete
+276,Germany,Group 1: Backbone complete
+288,Ghana,Group 1: Backbone complete
+324,Guinea,Group 1: Backbone complete
+344,Hong Kong,Group 1: Backbone complete
+356,India,Group 1: Backbone complete
+372,Ireland,Group 1: Backbone complete
+380,Italy,Group 1: Backbone complete
+384,Cote d'Ivoire,Group 1: Backbone complete
+388,Jamaica,Group 1: Backbone complete
+398,Kazakhstan,Group 1: Backbone complete
+404,Kenya,Group 1: Backbone complete
+410,"Korea, Rep.",Group 1: Backbone complete
+414,Kuwait,Group 1: Backbone complete
+417,Kyrgyz Republic,Group 1: Backbone complete
+418,Laos,Group 1: Backbone complete
+426,Lesotho,Group 1: Backbone complete
+434,Libya,Group 1: Backbone complete
+450,Madagascar,Group 1: Backbone complete
+454,Malawi,Group 1: Backbone complete
+458,Malaysia,Group 1: Backbone complete
+466,Mali,Group 1: Backbone complete
+470,Malta,Group 1: Backbone complete
+478,Mauritania,Group 1: Backbone complete
+480,Mauritius,Group 1: Backbone complete
+498,Moldova,Group 1: Backbone complete
+508,Mozambique,Group 1: Backbone complete
+516,Namibia,Group 1: Backbone complete
+562,Niger,Group 1: Backbone complete
+566,Nigeria,Group 1: Backbone complete
+624,Guinea-Bissau,Group 1: Backbone complete
+630,Puerto Rico,Group 1: Backbone complete
+634,Qatar,Group 1: Backbone complete
+646,Rwanda,Group 1: Backbone complete
+662,St. Lucia,Group 1: Backbone complete
+678,Sao Tome and Principe,Group 1: Backbone complete
+686,Senegal,Group 1: Backbone complete
+690,Seychelles,Group 1: Backbone complete
+694,Sierra Leone,Group 1: Backbone complete
+702,Singapore,Group 1: Backbone complete
+703,Slovak Republic,Group 1: Backbone complete
+705,Slovenia,Group 1: Backbone complete
+729,Sudan,Group 1: Backbone complete
+748,Eswatini,Group 1: Backbone complete
+762,Tajikistan,Group 1: Backbone complete
+768,Togo,Group 1: Backbone complete
+780,Trinidad and Tobago,Group 1: Backbone complete
+788,Tunisia,Group 1: Backbone complete
+795,Turkmenistan,Group 1: Backbone complete
+800,Uganda,Group 1: Backbone complete
+804,Ukraine,Group 1: Backbone complete
+807,North Macedonia,Group 1: Backbone complete
+834,Tanzania,Group 1: Backbone complete
+854,Burkina Faso,Group 1: Backbone complete
+860,Uzbekistan,Group 1: Backbone complete
+894,Zambia,Group 1: Backbone complete
+158,Taiwan,"Group 2: Backbone missing, secondary fill"
+352,Iceland,"Group 2: Backbone missing, secondary fill"
+360,Indonesia,"Group 2: Backbone missing, secondary fill"
+528,Netherlands,"Group 2: Backbone missing, secondary fill"
+710,South Africa,"Group 2: Backbone missing, secondary fill"
+752,Sweden,"Group 2: Backbone missing, secondary fill"
+784,United Arab Emirates,"Group 2: Backbone missing, secondary fill"
+826,United Kingdom,"Group 2: Backbone missing, secondary fill"
+840,United States,"Group 2: Backbone missing, secondary fill"
+4,Afghanistan,"Group 3: Secondary missing, need proxy"
+8,Albania,"Group 3: Secondary missing, need proxy"
+32,Argentina,"Group 3: Secondary missing, need proxy"
+40,Austria,"Group 3: Secondary missing, need proxy"
+51,Armenia,"Group 3: Secondary missing, need proxy"
+56,Belgium,"Group 3: Secondary missing, need proxy"
+68,Bolivia,"Group 3: Secondary missing, need proxy"
+76,Brazil,"Group 3: Secondary missing, need proxy"
+100,Bulgaria,"Group 3: Secondary missing, need proxy"
+104,Myanmar,"Group 3: Secondary missing, need proxy"
+112,Belarus,"Group 3: Secondary missing, need proxy"
+116,Cambodia,"Group 3: Secondary missing, need proxy"
+124,Canada,"Group 3: Secondary missing, need proxy"
+152,Chile,"Group 3: Secondary missing, need proxy"
+156,China,"Group 3: Secondary missing, need proxy"
+170,Colombia,"Group 3: Secondary missing, need proxy"
+188,Costa Rica,"Group 3: Secondary missing, need proxy"
+191,Croatia,"Group 3: Secondary missing, need proxy"
+200,Czechoslovakia,"Group 3: Secondary missing, need proxy"
+208,Denmark,"Group 3: Secondary missing, need proxy"
+214,Dominican Republic,"Group 3: Secondary missing, need proxy"
+218,Ecuador,"Group 3: Secondary missing, need proxy"
+222,El Salvador,"Group 3: Secondary missing, need proxy"
+231,Ethiopia,"Group 3: Secondary missing, need proxy"
+233,Estonia,"Group 3: Secondary missing, need proxy"
+250,France,"Group 3: Secondary missing, need proxy"
+300,Greece,"Group 3: Secondary missing, need proxy"
+320,Guatemala,"Group 3: Secondary missing, need proxy"
+332,Haiti,"Group 3: Secondary missing, need proxy"
+340,Honduras,"Group 3: Secondary missing, need proxy"
+348,Hungary,"Group 3: Secondary missing, need proxy"
+364,Iran,"Group 3: Secondary missing, need proxy"
+368,Iraq,"Group 3: Secondary missing, need proxy"
+376,Israel,"Group 3: Secondary missing, need proxy"
+392,Japan,"Group 3: Secondary missing, need proxy"
+400,Jordan,"Group 3: Secondary missing, need proxy"
+408,"Korea, Dem. People's Rep.","Group 3: Secondary missing, need proxy"
+422,Lebanon,"Group 3: Secondary missing, need proxy"
+428,Latvia,"Group 3: Secondary missing, need proxy"
+430,Liberia,"Group 3: Secondary missing, need proxy"
+440,Lithuania,"Group 3: Secondary missing, need proxy"
+442,Luxembourg,"Group 3: Secondary missing, need proxy"
+484,Mexico,"Group 3: Secondary missing, need proxy"
+496,Mongolia,"Group 3: Secondary missing, need proxy"
+499,Montenegro,"Group 3: Secondary missing, need proxy"
+504,Morocco,"Group 3: Secondary missing, need proxy"
+512,Oman,"Group 3: Secondary missing, need proxy"
+524,Nepal,"Group 3: Secondary missing, need proxy"
+554,New Zealand,"Group 3: Secondary missing, need proxy"
+558,Nicaragua,"Group 3: Secondary missing, need proxy"
+578,Norway,"Group 3: Secondary missing, need proxy"
+586,Pakistan,"Group 3: Secondary missing, need proxy"
+591,Panama,"Group 3: Secondary missing, need proxy"
+600,Paraguay,"Group 3: Secondary missing, need proxy"
+604,Peru,"Group 3: Secondary missing, need proxy"
+608,Philippines,"Group 3: Secondary missing, need proxy"
+616,Poland,"Group 3: Secondary missing, need proxy"
+620,Portugal,"Group 3: Secondary missing, need proxy"
+642,Romania,"Group 3: Secondary missing, need proxy"
+643,Russia,"Group 3: Secondary missing, need proxy"
+682,Saudi Arabia,"Group 3: Secondary missing, need proxy"
+688,Serbia,"Group 3: Secondary missing, need proxy"
+704,Vietnam,"Group 3: Secondary missing, need proxy"
+716,Zimbabwe,"Group 3: Secondary missing, need proxy"
+724,Spain,"Group 3: Secondary missing, need proxy"
+756,Switzerland,"Group 3: Secondary missing, need proxy"
+760,Syria,"Group 3: Secondary missing, need proxy"
+764,Thailand,"Group 3: Secondary missing, need proxy"
+792,Turkey,"Group 3: Secondary missing, need proxy"
+810,Soviet Union,"Group 3: Secondary missing, need proxy"
+818,Egypt,"Group 3: Secondary missing, need proxy"
+858,Uruguay,"Group 3: Secondary missing, need proxy"
+862,Venezuela,"Group 3: Secondary missing, need proxy"
+887,Yemen,"Group 3: Secondary missing, need proxy"
+891,Yugoslavia,"Group 3: Secondary missing, need proxy"
+20,Andorra,"Group 4: Not in backbone, proxy-only"
+660,Anguilla,"Group 4: Not in backbone, proxy-only"
+28,Antigua and Barbuda,"Group 4: Not in backbone, proxy-only"
+533,Aruba,"Group 4: Not in backbone, proxy-only"
+44,Bahamas,"Group 4: Not in backbone, proxy-only"
+84,Belize,"Group 4: Not in backbone, proxy-only"
+60,Bermuda,"Group 4: Not in backbone, proxy-only"
+64,Bhutan,"Group 4: Not in backbone, proxy-only"
+92,British Virgin Islands,"Group 4: Not in backbone, proxy-only"
+96,Brunei,"Group 4: Not in backbone, proxy-only"
+136,Cayman Islands,"Group 4: Not in backbone, proxy-only"
+184,Cook Islands,"Group 4: Not in backbone, proxy-only"
+531,Curacao,"Group 4: Not in backbone, proxy-only"
+232,Eritrea,"Group 4: Not in backbone, proxy-only"
+242,Fiji,"Group 4: Not in backbone, proxy-only"
+278,"Germany, East","Group 4: Not in backbone, proxy-only"
+292,Gibraltar,"Group 4: Not in backbone, proxy-only"
+308,Grenada,"Group 4: Not in backbone, proxy-only"
+316,Guam,"Group 4: Not in backbone, proxy-only"
+328,Guyana,"Group 4: Not in backbone, proxy-only"
+296,Kiribati,"Group 4: Not in backbone, proxy-only"
+689,Kosovo,"Group 4: Not in backbone, proxy-only"
+438,Liechtenstein,"Group 4: Not in backbone, proxy-only"
+446,Macau,"Group 4: Not in backbone, proxy-only"
+462,Maldives,"Group 4: Not in backbone, proxy-only"
+584,Marshall Islands,"Group 4: Not in backbone, proxy-only"
+583,Micronesia,"Group 4: Not in backbone, proxy-only"
+492,Monaco,"Group 4: Not in backbone, proxy-only"
+520,Nauru,"Group 4: Not in backbone, proxy-only"
+580,Northern Mariana Islands,"Group 4: Not in backbone, proxy-only"
+585,Palau,"Group 4: Not in backbone, proxy-only"
+598,Papua New Guinea,"Group 4: Not in backbone, proxy-only"
+882,Samoa,"Group 4: Not in backbone, proxy-only"
+674,San Marino,"Group 4: Not in backbone, proxy-only"
+534,Sint Maarten (Dutch part),"Group 4: Not in backbone, proxy-only"
+90,Solomon Islands,"Group 4: Not in backbone, proxy-only"
+706,Somalia,"Group 4: Not in backbone, proxy-only"
+728,South Sudan,"Group 4: Not in backbone, proxy-only"
+659,St. Kitts and Nevis,"Group 4: Not in backbone, proxy-only"
+670,St. Vincent and the Grenadines,"Group 4: Not in backbone, proxy-only"
+740,Suriname,"Group 4: Not in backbone, proxy-only"
+626,Timor-Leste,"Group 4: Not in backbone, proxy-only"
+776,Tonga,"Group 4: Not in backbone, proxy-only"
+796,Turks and Caicos,"Group 4: Not in backbone, proxy-only"
+798,Tuvalu,"Group 4: Not in backbone, proxy-only"
+548,Vanuatu,"Group 4: Not in backbone, proxy-only"
+850,Virgin Islands (U.S.),"Group 4: Not in backbone, proxy-only"

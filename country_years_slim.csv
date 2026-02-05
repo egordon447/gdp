@@ -1,0 +1,234 @@
+﻿iso_num,country,self_g,statehood,end,region
+4,Afghanistan,NA,1919,2025,e_asia
+8,Albania,NA,1912,2025,e_europe
+12,Algeria,NA,1962,2025,africa
+20,Andorra,1814,1993,2025,s_w_europe
+24,Angola,NA,1975,2025,africa
+660,Anguilla,1982,NA,2025,s_caribbean
+28,Antigua and Barbuda,1971,1981,2025,s_caribbean
+32,Argentina,NA,1816,2025,l_america
+51,Armenia,NA,1918,1920,f_ussr
+51,Armenia,NA,1991,2025,f_ussr
+533,Aruba,1986,NA,2025,s_caribbean
+36,Australia,1901,1931,2025,w_offshoots
+40,Austria,NA,1806,2025,w_europe
+41,Austria-Hungary,NA,1867,1918,w_europe
+31,Azerbaijan,NA,1991,2025,f_ussr
+44,Bahamas,1969,1973,2025,s_caribbe an
+48,Bahrain,NA,1971,2025,w_asia
+50,Bangladesh,NA,1971,2025,e_asia
+52,Barbados,1961,1966,2025,s_caribbean
+112,Belarus,NA,1918,1940,f_ussr
+112,Belarus,NA,1991,2025,f_ussr
+56,Belgium,NA,1830,2025,w_europe
+84,Belize,1964,1981,2025,s_caribbean
+204,Benin,1958,1960,2025,africa
+60,Bermuda,1968,NA,2025,s_caribbean
+64,Bhutan,NA,1907,2025,s_e_easia
+68,Bolivia,NA,1825,2025,l_america
+70,Bosnia and Herzegovina,NA,1992,2025,e_europe
+72,Botswana,NA,1966,2025,africa
+76,Brazil,NA,1822,2025,l_america
+92,British Virgin Islands,1967,NA,2025,s_caribbean
+96,Brunei,NA,1984,2025,s_e_easia
+100,Bulgaria,NA,1908,2025,e_europe
+854,Burkina Faso,NA,1960,2025,africa
+108,Burundi,NA,1962,2025,africa
+132,Cabo Verde,NA,1975,2025,africa
+116,Cambodia,NA,1953,2025,e_asia
+120,Cameroon,NA,1960,2025,africa
+124,Canada,NA,1867,2025,w_offshoots
+136,Cayman Islands,1972,NA,2025,s_caribbean
+140,Central African Republic,NA,1960,2025,africa
+148,Chad,1958,1960,2025,africa
+152,Chile,1810,NA,1814,l_america
+152,Chile,NA,1818,2025,l_america
+156,China,NA,1800,2025,e_asia
+170,Colombia,NA,1830,2025,l_america
+174,Comoros,NA,1975,2025,africa
+180,"Congo, Dem. Rep.",NA,1960,2025,africa
+178,"Congo, Rep.",NA,1960,2025,africa
+184,Cook Islands,1965,NA,2025,pacific
+188,Costa Rica,NA,1821,2025,l_america
+384,Cote d'Ivoire,NA,1960,2025,africa
+191,Croatia,NA,1991,2025,e_europe
+192,Cuba,NA,1902,2025,l_america
+531,Curacao,2010,NA,2025,s_caribbean
+196,Cyprus,NA,1960,2025,s_w_europe
+203,Czech Republic,NA,1993,2025,e_europe
+200,Czechoslovakia,NA,1918,1992,e_europe
+208,Denmark,NA,1523,2025,w_europe
+262,Djibouti,NA,1977,2025,africa
+212,Dominica,1967,1978,2025,s_caribbean
+214,Dominican Republic,NA,1844,2025,l_america
+218,Ecuador,NA,1830,2025,l_america
+818,Egypt,NA,1922,2025,africa
+222,El Salvador,NA,1840,2025,l_america
+226,Equatorial Guinea,NA,1968,2025,africa
+232,Eritrea,NA,1993,2025,africa
+233,Estonia,NA,1918,1940,f_ussr
+233,Estonia,NA,1991,2025,f_ussr
+748,Eswatini,NA,1968,2025,africa
+231,Ethiopia,NA,1855,2025,africa
+242,Fiji,NA,1970,2025,pacific
+246,Finland,NA,1917,2025,w_europe
+250,France,NA,1475,2025,w_europe
+266,Gabon,1958,1960,2025,africa
+270,Gambia,NA,1965,2025,africa
+268,Georgia,NA,1991,2025,f_ussr
+276,Germany,NA,1871,2025,w_europe
+278,"Germany, East",NA,1949,1990,w_europe
+288,Ghana,NA,1957,2025,africa
+292,Gibraltar,2007,NA,2025,s_w_europe
+322,Gran Columbia,NA,1819,1830,l_america
+300,Greece,NA,1830,2025,w_europe
+308,Grenada,1967,1974,2025,s_caribbean
+316,Guam,1950,NA,2025,pacific
+320,Guatemala,NA,1821,2025,l_america
+324,Guinea,NA,1958,2025,africa
+624,Guinea-Bissau,NA,1974,2025,africa
+328,Guyana,NA,1966,2025,s_caribbean
+332,Haiti,NA,1804,2025,l_america
+340,Honduras,NA,1838,2025,l_america
+344,Hong Kong,1997,NA,2025,e_asia
+348,Hungary,NA,1918,2025,e_europe
+352,Iceland,1918,1944,2025,s_w_europe
+356,India,NA,1947,2025,e_asia
+360,Indonesia,NA,1945,2025,e_asia
+364,Iran,NA,1800,2025,w_asia
+368,Iraq,NA,1932,2025,w_asia
+372,Ireland,1921,1922,2025,w_europe
+376,Israel,NA,1948,2025,w_asia
+380,Italy,NA,1861,2025,w_europe
+388,Jamaica,NA,1962,2025,l_america
+392,Japan,NA,1800,2025,e_asia
+400,Jordan,NA,1946,2025,w_asia
+398,Kazakhstan,NA,1991,2025,f_ussr
+404,Kenya,NA,1963,2025,africa
+296,Kiribati,NA,1979,2025,pacific
+409,Korea,NA,1800,2025,e_asia
+408,"Korea, Dem. Rep.",NA,1948,2025,e_asia
+410,"Korea, Rep.",NA,1948,2025,e_asia
+689,Kosovo,NA,2008,2025,e_europe
+414,Kuwait,NA,1961,2025,w_asia
+417,Kyrgyz Republic,NA,1991,2025,f_ussr
+418,Laos,NA,1953,2025,e_asia
+428,Latvia,NA,1918,1940,f_ussr
+428,Latvia,NA,1991,2025,f_ussr
+422,Lebanon,NA,1943,2025,w_asia
+426,Lesotho,NA,1966,2025,africa
+430,Liberia,NA,1847,2025,africa
+434,Libya,NA,1951,2025,africa
+438,Liechtenstein,NA,1806,2025,s_w_europe
+440,Lithuania,NA,1918,1940,f_ussr
+440,Lithuania,NA,1991,2025,f_ussr
+442,Luxembourg,NA,1839,2025,s_w_europe
+446,Macau,1999,NA,2025,s_e_easia
+450,Madagascar,NA,1960,2025,africa
+454,Malawi,NA,1964,2025,africa
+458,Malaysia,NA,1957,2025,e_asia
+462,Maldives,NA,1965,2025,s_e_easia
+466,Mali,NA,1960,2025,africa
+470,Malta,NA,1964,2025,s_w_europe
+584,Marshall Islands,1979,1990,2025,pacific
+478,Mauritania,NA,1960,2025,africa
+480,Mauritius,1964,1968,2025,africa
+484,Mexico,NA,1821,2025,l_america
+583,Micronesia,1978,1990,2025,pacific
+498,Moldova,NA,1991,2025,f_ussr
+492,Monaco,1861,1918,2025,s_w_europe
+496,Mongolia,NA,1911,2025,e_asia
+499,Montenegro,1852,1878,1915,e_europe
+499,Montenegro,NA,2006,2025,e_europe
+504,Morocco,NA,1800,1912,africa
+504,Morocco,NA,1956,2025,africa
+508,Mozambique,NA,1975,2025,africa
+104,Myanmar,NA,1948,2025,e_asia
+516,Namibia,NA,1990,2025,africa
+520,Nauru,1966,1968,2025,pacific
+524,Nepal,NA,1769,2025,e_asia
+528,Netherlands,NA,1648,2025,w_europe
+554,New Zealand,1857,1931,2025,w_offshoots
+558,Nicaragua,NA,1838,2025,l_america
+562,Niger,NA,1960,2025,africa
+566,Nigeria,NA,1960,2025,africa
+570,Niue,1974,NA,2025,africa
+807,North Macedonia,NA,1991,2025,e_europe
+580,Northern Mariana Islands,1986,NA,2025,pacific
+578,Norway,NA,1905,2025,w_europe
+512,Oman,NA,1970,2025,w_asia
+711,Orange Free State,1854,NA,1910,africa
+586,Pakistan,NA,1947,2025,e_asia
+585,Palau,1980,1994,2025,pacific
+591,Panama,NA,1903,2025,l_america
+598,Papua New Guinea,1973,1975,2025,pacific
+600,Paraguay,NA,1811,2025,l_america
+604,Peru,NA,1821,2025,l_america
+608,Philippines,NA,1946,2025,e_asia
+616,Poland,NA,1918,2025,e_europe
+620,Portugal,NA,1166,2025,w_europe
+630,Puerto Rico,1952,NA,2025,l_america
+634,Qatar,NA,1971,2025,w_asia
+642,Romania,NA,1878,2025,e_europe
+643,Russia,NA,1721,2025,f_ussr
+646,Rwanda,NA,1962,2025,africa
+882,Samoa,NA,1962,2025,pacific
+674,San Marino,NA,1800,2025,s_w_europe
+678,Sao Tome and Principe,NA,1975,2025,africa
+682,Saudi Arabia,NA,1932,2025,w_asia
+686,Senegal,NA,1960,2025,africa
+688,Serbia,NA,1878,2025,e_europe
+690,Seychelles,NA,1976,2025,africa
+694,Sierra Leone,NA,1961,2025,africa
+702,Singapore,NA,1965,2025,e_asia
+534,Sint Maarten,2010,NA,2025,s_caribbean
+703,Slovak Republic,NA,1993,2025,e_europe
+705,Slovenia,NA,1991,2025,e_europe
+90,Solomon Islands,1976,1978,2025,pacific
+706,Somalia,NA,1960,2025,africa
+710,South Africa,1910,1931,2025,africa
+728,South Sudan,NA,2011,2025,africa
+724,Spain,NA,1482,2025,w_europe
+144,Sri Lanka,NA,1948,2025,e_asia
+659,St. Kitts and Nevis,1967,1983,2025,s_caribbean
+662,St. Lucia,1967,1979,2025,s_caribbean
+670,St. Vincent and the Grenadines,1969,1979,2025,s_caribbean
+729,Sudan,NA,1956,2025,africa
+740,Suriname,NA,1975,2025,s_caribbean
+752,Sweden,NA,1523,2025,w_europe
+756,Switzerland,NA,1648,2025,w_europe
+760,Syria,NA,1946,2025,w_asia
+158,Taiwan,1945,NA,2025,e_asia
+762,Tajikistan,NA,1991,2025,f_ussr
+834,Tanzania,NA,1964,2025,africa
+764,Thailand,NA,1782,2025,e_asia
+157,Tibet,NA,1913,1950,e_asia
+626,Timor-Leste,NA,2002,2025,pacific
+768,Togo,NA,1960,2025,africa
+776,Tonga,NA,1875,2025,pacific
+712,Transvaal,1852,NA,1910,africa
+780,Trinidad and Tobago,NA,1962,2025,l_america
+788,Tunisia,NA,1956,2025,africa
+792,Turkey,NA,1800,2025,w_asia
+795,Turkmenistan,NA,1991,2025,f_ussr
+796,Turks and Caicos,1990,NA,2025,s_caribbean
+798,Tuvalu,NA,1978,2025,pacific
+800,Uganda,NA,1962,2025,africa
+804,Ukraine,NA,1991,2025,f_ussr
+784,United Arab Emirates,NA,1971,2025,w_asia
+826,United Kingdom,NA,1707,2025,w_europe
+321,United Provinces of Central America,NA,1823,1839,l_america
+840,United States,NA,1776,2025,w_offshoots
+858,Uruguay,NA,1828,2025,l_america
+850,US Virgin Islands,1981,NA,2025,s_caribbean
+860,Uzbekistan,NA,1991,2025,f_ussr
+548,Vanuatu,1978,1980,2025,pacific
+862,Venezuela,NA,1830,2025,l_america
+704,Vietnam,NA,1800,1885,e_asia
+704,Vietnam,NA,1954,2025,e_asia
+895,"Vietnam, South",NA,1954,1976,e_asia
+887,Yemen,NA,1918,2025,w_asia
+720,"Yemen, South",NA,1967,1990,w_asia
+894,Zambia,NA,1964,2025,africa
+835,Zanzibar,NA,1963,2025,africa
+716,Zimbabwe,1923,1980,2025,africa

@@ -1,0 +1,826 @@
+"iso_num","iso3_alpha","country","year","gdp","origin"
+20,"AND","Andorra",1814,NA,NA
+20,"AND","Andorra",1815,NA,NA
+20,"AND","Andorra",1816,NA,NA
+20,"AND","Andorra",1817,NA,NA
+20,"AND","Andorra",1818,NA,NA
+20,"AND","Andorra",1819,NA,NA
+20,"AND","Andorra",1820,NA,NA
+20,"AND","Andorra",1821,NA,NA
+20,"AND","Andorra",1822,NA,NA
+20,"AND","Andorra",1823,NA,NA
+20,"AND","Andorra",1824,NA,NA
+20,"AND","Andorra",1825,NA,NA
+20,"AND","Andorra",1826,NA,NA
+20,"AND","Andorra",1827,NA,NA
+20,"AND","Andorra",1828,NA,NA
+20,"AND","Andorra",1829,NA,NA
+20,"AND","Andorra",1830,NA,NA
+20,"AND","Andorra",1831,NA,NA
+20,"AND","Andorra",1832,NA,NA
+20,"AND","Andorra",1833,NA,NA
+20,"AND","Andorra",1834,NA,NA
+20,"AND","Andorra",1835,NA,NA
+20,"AND","Andorra",1836,NA,NA
+20,"AND","Andorra",1837,NA,NA
+20,"AND","Andorra",1838,NA,NA
+20,"AND","Andorra",1839,NA,NA
+20,"AND","Andorra",1840,NA,NA
+20,"AND","Andorra",1841,NA,NA
+20,"AND","Andorra",1842,NA,NA
+20,"AND","Andorra",1843,NA,NA
+20,"AND","Andorra",1844,NA,NA
+20,"AND","Andorra",1845,NA,NA
+20,"AND","Andorra",1846,NA,NA
+20,"AND","Andorra",1847,NA,NA
+20,"AND","Andorra",1848,NA,NA
+20,"AND","Andorra",1849,NA,NA
+20,"AND","Andorra",1850,NA,NA
+20,"AND","Andorra",1851,NA,NA
+20,"AND","Andorra",1852,NA,NA
+20,"AND","Andorra",1853,NA,NA
+20,"AND","Andorra",1854,NA,NA
+20,"AND","Andorra",1855,NA,NA
+20,"AND","Andorra",1856,NA,NA
+20,"AND","Andorra",1857,NA,NA
+20,"AND","Andorra",1858,NA,NA
+20,"AND","Andorra",1859,NA,NA
+20,"AND","Andorra",1860,NA,NA
+20,"AND","Andorra",1861,NA,NA
+20,"AND","Andorra",1862,NA,NA
+20,"AND","Andorra",1863,NA,NA
+20,"AND","Andorra",1864,NA,NA
+20,"AND","Andorra",1865,NA,NA
+20,"AND","Andorra",1866,NA,NA
+20,"AND","Andorra",1867,NA,NA
+20,"AND","Andorra",1868,NA,NA
+20,"AND","Andorra",1869,NA,NA
+20,"AND","Andorra",1870,NA,NA
+20,"AND","Andorra",1871,NA,NA
+20,"AND","Andorra",1872,NA,NA
+20,"AND","Andorra",1873,NA,NA
+20,"AND","Andorra",1874,NA,NA
+20,"AND","Andorra",1875,NA,NA
+20,"AND","Andorra",1876,NA,NA
+20,"AND","Andorra",1877,NA,NA
+20,"AND","Andorra",1878,NA,NA
+20,"AND","Andorra",1879,NA,NA
+20,"AND","Andorra",1880,NA,NA
+20,"AND","Andorra",1881,NA,NA
+20,"AND","Andorra",1882,NA,NA
+20,"AND","Andorra",1883,NA,NA
+20,"AND","Andorra",1884,NA,NA
+20,"AND","Andorra",1885,NA,NA
+20,"AND","Andorra",1886,NA,NA
+20,"AND","Andorra",1887,NA,NA
+20,"AND","Andorra",1888,NA,NA
+20,"AND","Andorra",1889,NA,NA
+20,"AND","Andorra",1890,NA,NA
+20,"AND","Andorra",1891,NA,NA
+20,"AND","Andorra",1892,NA,NA
+20,"AND","Andorra",1893,NA,NA
+20,"AND","Andorra",1894,NA,NA
+20,"AND","Andorra",1895,NA,NA
+20,"AND","Andorra",1896,NA,NA
+20,"AND","Andorra",1897,NA,NA
+20,"AND","Andorra",1898,NA,NA
+20,"AND","Andorra",1899,NA,NA
+20,"AND","Andorra",1900,NA,NA
+20,"AND","Andorra",1901,NA,NA
+20,"AND","Andorra",1902,NA,NA
+20,"AND","Andorra",1903,NA,NA
+20,"AND","Andorra",1904,NA,NA
+20,"AND","Andorra",1905,NA,NA
+20,"AND","Andorra",1906,NA,NA
+20,"AND","Andorra",1907,NA,NA
+20,"AND","Andorra",1908,NA,NA
+20,"AND","Andorra",1909,NA,NA
+20,"AND","Andorra",1910,NA,NA
+20,"AND","Andorra",1911,NA,NA
+20,"AND","Andorra",1912,NA,NA
+20,"AND","Andorra",1913,NA,NA
+20,"AND","Andorra",1914,NA,NA
+20,"AND","Andorra",1915,NA,NA
+20,"AND","Andorra",1916,NA,NA
+20,"AND","Andorra",1917,NA,NA
+20,"AND","Andorra",1918,NA,NA
+20,"AND","Andorra",1919,NA,NA
+20,"AND","Andorra",1920,NA,NA
+20,"AND","Andorra",1921,NA,NA
+20,"AND","Andorra",1922,NA,NA
+20,"AND","Andorra",1923,NA,NA
+20,"AND","Andorra",1924,NA,NA
+20,"AND","Andorra",1925,NA,NA
+20,"AND","Andorra",1926,NA,NA
+20,"AND","Andorra",1927,NA,NA
+20,"AND","Andorra",1928,NA,NA
+20,"AND","Andorra",1929,NA,NA
+20,"AND","Andorra",1930,NA,NA
+20,"AND","Andorra",1931,NA,NA
+20,"AND","Andorra",1932,NA,NA
+20,"AND","Andorra",1933,NA,NA
+20,"AND","Andorra",1934,NA,NA
+20,"AND","Andorra",1935,NA,NA
+20,"AND","Andorra",1936,NA,NA
+20,"AND","Andorra",1937,NA,NA
+20,"AND","Andorra",1938,NA,NA
+20,"AND","Andorra",1939,NA,NA
+20,"AND","Andorra",1940,NA,NA
+20,"AND","Andorra",1941,NA,NA
+20,"AND","Andorra",1942,NA,NA
+20,"AND","Andorra",1943,NA,NA
+20,"AND","Andorra",1944,NA,NA
+20,"AND","Andorra",1945,NA,NA
+20,"AND","Andorra",1946,NA,NA
+20,"AND","Andorra",1947,NA,NA
+20,"AND","Andorra",1948,NA,NA
+20,"AND","Andorra",1949,NA,NA
+20,"AND","Andorra",1950,431993765.511,"scaled"
+20,"AND","Andorra",1951,471459477.951,"scaled"
+20,"AND","Andorra",1952,470686319.257,"scaled"
+20,"AND","Andorra",1953,489247897.754,"scaled"
+20,"AND","Andorra",1954,523093785.06,"scaled"
+20,"AND","Andorra",1955,562721053.048,"scaled"
+20,"AND","Andorra",1956,603848479.696,"scaled"
+20,"AND","Andorra",1957,626622042.123,"scaled"
+20,"AND","Andorra",1958,602700281.337,"scaled"
+20,"AND","Andorra",1959,649776414.056,"scaled"
+20,"AND","Andorra",1960,705945816.191,"scaled"
+20,"AND","Andorra",1961,766990733.971,"scaled"
+20,"AND","Andorra",1962,804338914.764,"scaled"
+20,"AND","Andorra",1963,841335135.256,"scaled"
+20,"AND","Andorra",1964,891348117.044,"scaled"
+20,"AND","Andorra",1965,912200322.418,"scaled"
+20,"AND","Andorra",1966,933958392.829,"scaled"
+20,"AND","Andorra",1967,965334788.187,"scaled"
+20,"AND","Andorra",1968,1000900088.111,"scaled"
+20,"AND","Andorra",1969,1057848418.781,"scaled"
+20,"AND","Andorra",1970,1128350105.96,"scaled"
+20,"AND","Andorra",1971,1174474214.914,"scaled"
+20,"AND","Andorra",1972,1212462848.058,"scaled"
+20,"AND","Andorra",1973,1248305100.35,"scaled"
+20,"AND","Andorra",1974,1265608853.509,"scaled"
+20,"AND","Andorra",1975,1146784747.955,"scaled"
+20,"AND","Andorra",1976,1133756446.977,"scaled"
+20,"AND","Andorra",1977,1157360866.508,"scaled"
+20,"AND","Andorra",1978,1177370675.096,"scaled"
+20,"AND","Andorra",1979,1218959689.024,"scaled"
+20,"AND","Andorra",1980,1279087202.085,"scaled"
+20,"AND","Andorra",1981,1279369924.294,"scaled"
+20,"AND","Andorra",1982,1272301869.069,"scaled"
+20,"AND","Andorra",1983,1284280058.985,"scaled"
+20,"AND","Andorra",1984,1300383685.216,"scaled"
+20,"AND","Andorra",1985,1332735183.703,"scaled"
+20,"AND","Andorra",1986,1412232053.001,"scaled"
+20,"AND","Andorra",1987,1440694678.654,"scaled"
+20,"AND","Andorra",1988,1469503494.767,"scaled"
+20,"AND","Andorra",1989,1537322205.881,"scaled"
+20,"AND","Andorra",1990,1622335043.175,"scaled"
+20,"AND","Andorra",1991,1599676877.568,"scaled"
+20,"AND","Andorra",1992,1393035582.707,"scaled"
+20,"AND","Andorra",1993,1900804796.28,"scaled"
+20,"AND","Andorra",1994,1954627732.98,"scaled"
+20,"AND","Andorra",1995,2245900339.788,"scaled"
+20,"AND","Andorra",1996,2237289634.866,"scaled"
+20,"AND","Andorra",1997,2330670916.674,"scaled"
+20,"AND","Andorra",1998,2401391316.998,"scaled"
+20,"AND","Andorra",1999,2097640983.737,"scaled"
+20,"AND","Andorra",2000,2126253543.045,"scaled"
+20,"AND","Andorra",2001,2120375282.397,"scaled"
+20,"AND","Andorra",2002,2690115588.912,"scaled"
+20,"AND","Andorra",2003,2742169075.056,"scaled"
+20,"AND","Andorra",2004,2618811625.206,"scaled"
+20,"AND","Andorra",2005,4480627310.943,"scaled"
+20,"AND","Andorra",2006,4964288390.976,"scaled"
+20,"AND","Andorra",2007,5400608816.53,"scaled"
+20,"AND","Andorra",2008,6481611220.35,"scaled"
+20,"AND","Andorra",2009,5087131649.328,"scaled"
+20,"AND","Andorra",2010,4673241367.798,"scaled"
+20,"AND","Andorra",2011,4972971320.923,"scaled"
+20,"AND","Andorra",2012,3923266226.144,"scaled"
+20,"AND","Andorra",2013,4001887393.754,"scaled"
+20,"AND","Andorra",2014,4137002968.098,"scaled"
+20,"AND","Andorra",2015,3894061312.032,"scaled"
+20,"AND","Andorra",2016,3965981001.024,"scaled"
+20,"AND","Andorra",2017,4089339459.264,"scaled"
+20,"AND","Andorra",2018,4178889292.128,"scaled"
+20,"AND","Andorra",2019,4234967976.6,"scaled"
+20,"AND","Andorra",2020,NA,NA
+20,"AND","Andorra",2021,NA,NA
+184,"COK","Cook Islands",1965,83767592.908,"scaled"
+184,"COK","Cook Islands",1966,85765642.174,"scaled"
+184,"COK","Cook Islands",1967,88646944.722,"scaled"
+184,"COK","Cook Islands",1968,91912915.466,"scaled"
+184,"COK","Cook Islands",1969,97142495.486,"scaled"
+184,"COK","Cook Islands",1970,103616683.76,"scaled"
+184,"COK","Cook Islands",1971,107852272.684,"scaled"
+184,"COK","Cook Islands",1972,111340778.748,"scaled"
+184,"COK","Cook Islands",1973,114632182.1,"scaled"
+184,"COK","Cook Islands",1974,116221190.254,"scaled"
+184,"COK","Cook Islands",1975,105309541.73,"scaled"
+184,"COK","Cook Islands",1976,104113149.462,"scaled"
+184,"COK","Cook Islands",1977,106280749.448,"scaled"
+184,"COK","Cook Islands",1978,108118255.376,"scaled"
+184,"COK","Cook Islands",1979,111937385.344,"scaled"
+184,"COK","Cook Islands",1980,117458910.51,"scaled"
+184,"COK","Cook Islands",1981,117484872.964,"scaled"
+184,"COK","Cook Islands",1982,116835811.614,"scaled"
+184,"COK","Cook Islands",1983,117935771.91,"scaled"
+184,"COK","Cook Islands",1984,119414572.096,"scaled"
+184,"COK","Cook Islands",1985,122385418.618,"scaled"
+184,"COK","Cook Islands",1986,129685636.806,"scaled"
+184,"COK","Cook Islands",1987,132299367.124,"scaled"
+184,"COK","Cook Islands",1988,134944888.202,"scaled"
+184,"COK","Cook Islands",1989,141172698.086,"scaled"
+184,"COK","Cook Islands",1990,148979449.05,"scaled"
+184,"COK","Cook Islands",1991,146898743.808,"scaled"
+184,"COK","Cook Islands",1992,147910219.822,"scaled"
+184,"COK","Cook Islands",1993,150163654.86,"scaled"
+184,"COK","Cook Islands",1994,154415669.01,"scaled"
+184,"COK","Cook Islands",1995,157176696.516,"scaled"
+184,"COK","Cook Islands",1996,159340057.734,"scaled"
+184,"COK","Cook Islands",1997,236438496.477,"scaled"
+184,"COK","Cook Islands",1998,243612836.279,"scaled"
+184,"COK","Cook Islands",1999,169547644.526,"scaled"
+184,"COK","Cook Islands",2000,171860333.91,"scaled"
+184,"COK","Cook Islands",2001,171385207.206,"scaled"
+184,"COK","Cook Islands",2002,171986222.182,"scaled"
+184,"COK","Cook Islands",2003,262646907.858,"scaled"
+184,"COK","Cook Islands",2004,272648767.122,"scaled"
+184,"COK","Cook Islands",2005,296336260.458,"scaled"
+184,"COK","Cook Islands",2006,317340012.816,"scaled"
+184,"COK","Cook Islands",2007,350559387.54,"scaled"
+184,"COK","Cook Islands",2008,346559084.23,"scaled"
+184,"COK","Cook Islands",2009,341144120.396,"scaled"
+184,"COK","Cook Islands",2010,353498099.497,"scaled"
+184,"COK","Cook Islands",2011,389704637.579,"scaled"
+184,"COK","Cook Islands",2012,402192906.664,"scaled"
+184,"COK","Cook Islands",2013,207590779.932,"scaled"
+184,"COK","Cook Islands",2014,212994548.052,"scaled"
+184,"COK","Cook Islands",2015,214425063.642,"scaled"
+184,"COK","Cook Islands",2016,351939781.088,"scaled"
+184,"COK","Cook Islands",2017,362886567.968,"scaled"
+184,"COK","Cook Islands",2018,370833189.136,"scaled"
+184,"COK","Cook Islands",2019,312998656.68,"scaled"
+184,"COK","Cook Islands",2020,NA,NA
+184,"COK","Cook Islands",2021,NA,NA
+292,"GIB","Gibraltar",2007,1775118027.04,"scaled"
+292,"GIB","Gibraltar",2008,1958306793.87,"scaled"
+292,"GIB","Gibraltar",2009,1927708373.724,"scaled"
+292,"GIB","Gibraltar",2010,1997517195.093,"scaled"
+292,"GIB","Gibraltar",2011,2403697237.328,"scaled"
+292,"GIB","Gibraltar",2012,2480724850.048,"scaled"
+292,"GIB","Gibraltar",2013,2261989828.668,"scaled"
+292,"GIB","Gibraltar",2014,2514431914.852,"scaled"
+292,"GIB","Gibraltar",2015,2531319361.442,"scaled"
+292,"GIB","Gibraltar",2016,2578070474.644,"scaled"
+292,"GIB","Gibraltar",2017,2658259159.084,"scaled"
+292,"GIB","Gibraltar",2018,2716470678.518,"scaled"
+292,"GIB","Gibraltar",2019,2762282414.16,"scaled"
+292,"GIB","Gibraltar",2020,NA,NA
+292,"GIB","Gibraltar",2021,NA,NA
+316,"GUM","Guam",1950,NA,NA
+316,"GUM","Guam",1951,NA,NA
+316,"GUM","Guam",1952,NA,NA
+316,"GUM","Guam",1953,1302564100.48,"scaled"
+316,"GUM","Guam",1954,1449999997.68,"scaled"
+316,"GUM","Guam",1955,1594102561.552,"scaled"
+316,"GUM","Guam",1956,1771538458.704,"scaled"
+316,"GUM","Guam",1957,2003333330.128,"scaled"
+316,"GUM","Guam",1958,2047435894.16,"scaled"
+316,"GUM","Guam",1959,2110512817.136,"scaled"
+316,"GUM","Guam",1960,2229999996.432,"scaled"
+316,"GUM","Guam",1961,2336666662.928,"scaled"
+316,"GUM","Guam",1962,2373333329.536,"scaled"
+316,"GUM","Guam",1963,2558974354.88,"scaled"
+316,"GUM","Guam",1964,2701538457.216,"scaled"
+316,"GUM","Guam",1965,2790256405.792,"scaled"
+316,"GUM","Guam",1966,2844358969.808,"scaled"
+316,"GUM","Guam",1967,2872307687.712,"scaled"
+316,"GUM","Guam",1968,2903846149.2,"scaled"
+316,"GUM","Guam",1969,3032307687.456,"scaled"
+316,"GUM","Guam",1970,3445897430.384,"scaled"
+316,"GUM","Guam",1971,3571025635.312,"scaled"
+316,"GUM","Guam",1972,3929230762.944,"scaled"
+316,"GUM","Guam",1973,3987692301.312,"scaled"
+316,"GUM","Guam",1974,3865128198.944,"scaled"
+316,"GUM","Guam",1975,3801538455.456,"scaled"
+316,"GUM","Guam",1976,3581794866.064,"scaled"
+316,"GUM","Guam",1977,3386923071.504,"scaled"
+316,"GUM","Guam",1978,3215641020.496,"scaled"
+316,"GUM","Guam",1979,2948974354.256,"scaled"
+316,"GUM","Guam",1980,2636923072.704,"scaled"
+316,"GUM","Guam",1981,2609743585.568,"scaled"
+316,"GUM","Guam",1982,2609487175.312,"scaled"
+316,"GUM","Guam",1983,2719487175.136,"scaled"
+316,"GUM","Guam",1984,2614871790.688,"scaled"
+316,"GUM","Guam",1985,2326410252.688,"scaled"
+316,"GUM","Guam",1986,2577435893.312,"scaled"
+316,"GUM","Guam",1987,2858717944.144,"scaled"
+316,"GUM","Guam",1988,3001282046.48,"scaled"
+316,"GUM","Guam",1989,3051794866.912,"scaled"
+316,"GUM","Guam",1990,3278461533.216,"scaled"
+316,"GUM","Guam",1991,6927777783.32,"scaled"
+316,"GUM","Guam",1992,7353888894.772,"scaled"
+316,"GUM","Guam",1993,7879444450.748,"scaled"
+316,"GUM","Guam",1994,4487368425.54,"scaled"
+316,"GUM","Guam",1995,4550526320.34,"scaled"
+316,"GUM","Guam",1996,4653473688.864,"scaled"
+316,"GUM","Guam",1997,4626631583.574,"scaled"
+316,"GUM","Guam",1998,4710631583.658,"scaled"
+316,"GUM","Guam",1999,5038185563.704,"scaled"
+316,"GUM","Guam",2000,5135505151.269,"scaled"
+316,"GUM","Guam",2001,5158597934.759,"scaled"
+316,"GUM","Guam",2002,5182680408.97,"scaled"
+316,"GUM","Guam",2003,3529351402.62,"scaled"
+316,"GUM","Guam",2004,3597906410.964,"scaled"
+316,"GUM","Guam",2005,3869047626.6,"scaled"
+316,"GUM","Guam",2006,4009646970.06,"scaled"
+316,"GUM","Guam",2007,4248357972.168,"scaled"
+316,"GUM","Guam",2008,3870506944.502,"scaled"
+316,"GUM","Guam",2009,3886116102.288,"scaled"
+316,"GUM","Guam",2010,3981839732.566,"scaled"
+316,"GUM","Guam",2011,3921143298.05,"scaled"
+316,"GUM","Guam",2012,4485393133.929,"scaled"
+316,"GUM","Guam",2013,4642631018.868,"scaled"
+316,"GUM","Guam",2014,5282790660.966,"scaled"
+316,"GUM","Guam",2015,5222436112.995,"scaled"
+316,"GUM","Guam",2016,5262478440.055,"scaled"
+316,"GUM","Guam",2017,5363167895.305,"scaled"
+316,"GUM","Guam",2018,5528969864.95,"scaled"
+316,"GUM","Guam",2019,5564099297.115,"scaled"
+316,"GUM","Guam",2020,NA,NA
+316,"GUM","Guam",2021,NA,NA
+316,"GUM","Guam",2022,NA,NA
+316,"GUM","Guam",2023,NA,NA
+438,"LIE","Liechtenstein",1806,NA,NA
+438,"LIE","Liechtenstein",1807,NA,NA
+438,"LIE","Liechtenstein",1808,NA,NA
+438,"LIE","Liechtenstein",1809,NA,NA
+438,"LIE","Liechtenstein",1810,NA,NA
+438,"LIE","Liechtenstein",1811,NA,NA
+438,"LIE","Liechtenstein",1812,NA,NA
+438,"LIE","Liechtenstein",1813,NA,NA
+438,"LIE","Liechtenstein",1814,NA,NA
+438,"LIE","Liechtenstein",1815,NA,NA
+438,"LIE","Liechtenstein",1816,NA,NA
+438,"LIE","Liechtenstein",1817,NA,NA
+438,"LIE","Liechtenstein",1818,NA,NA
+438,"LIE","Liechtenstein",1819,NA,NA
+438,"LIE","Liechtenstein",1820,NA,NA
+438,"LIE","Liechtenstein",1821,NA,NA
+438,"LIE","Liechtenstein",1822,NA,NA
+438,"LIE","Liechtenstein",1823,NA,NA
+438,"LIE","Liechtenstein",1824,NA,NA
+438,"LIE","Liechtenstein",1825,NA,NA
+438,"LIE","Liechtenstein",1826,NA,NA
+438,"LIE","Liechtenstein",1827,NA,NA
+438,"LIE","Liechtenstein",1828,NA,NA
+438,"LIE","Liechtenstein",1829,NA,NA
+438,"LIE","Liechtenstein",1830,NA,NA
+438,"LIE","Liechtenstein",1831,NA,NA
+438,"LIE","Liechtenstein",1832,NA,NA
+438,"LIE","Liechtenstein",1833,NA,NA
+438,"LIE","Liechtenstein",1834,NA,NA
+438,"LIE","Liechtenstein",1835,NA,NA
+438,"LIE","Liechtenstein",1836,NA,NA
+438,"LIE","Liechtenstein",1837,NA,NA
+438,"LIE","Liechtenstein",1838,NA,NA
+438,"LIE","Liechtenstein",1839,NA,NA
+438,"LIE","Liechtenstein",1840,NA,NA
+438,"LIE","Liechtenstein",1841,NA,NA
+438,"LIE","Liechtenstein",1842,NA,NA
+438,"LIE","Liechtenstein",1843,NA,NA
+438,"LIE","Liechtenstein",1844,NA,NA
+438,"LIE","Liechtenstein",1845,NA,NA
+438,"LIE","Liechtenstein",1846,NA,NA
+438,"LIE","Liechtenstein",1847,NA,NA
+438,"LIE","Liechtenstein",1848,NA,NA
+438,"LIE","Liechtenstein",1849,NA,NA
+438,"LIE","Liechtenstein",1850,NA,NA
+438,"LIE","Liechtenstein",1851,NA,NA
+438,"LIE","Liechtenstein",1852,NA,NA
+438,"LIE","Liechtenstein",1853,NA,NA
+438,"LIE","Liechtenstein",1854,NA,NA
+438,"LIE","Liechtenstein",1855,NA,NA
+438,"LIE","Liechtenstein",1856,NA,NA
+438,"LIE","Liechtenstein",1857,NA,NA
+438,"LIE","Liechtenstein",1858,NA,NA
+438,"LIE","Liechtenstein",1859,NA,NA
+438,"LIE","Liechtenstein",1860,NA,NA
+438,"LIE","Liechtenstein",1861,NA,NA
+438,"LIE","Liechtenstein",1862,NA,NA
+438,"LIE","Liechtenstein",1863,NA,NA
+438,"LIE","Liechtenstein",1864,NA,NA
+438,"LIE","Liechtenstein",1865,NA,NA
+438,"LIE","Liechtenstein",1866,NA,NA
+438,"LIE","Liechtenstein",1867,NA,NA
+438,"LIE","Liechtenstein",1868,NA,NA
+438,"LIE","Liechtenstein",1869,NA,NA
+438,"LIE","Liechtenstein",1870,NA,NA
+438,"LIE","Liechtenstein",1871,NA,NA
+438,"LIE","Liechtenstein",1872,NA,NA
+438,"LIE","Liechtenstein",1873,NA,NA
+438,"LIE","Liechtenstein",1874,NA,NA
+438,"LIE","Liechtenstein",1875,NA,NA
+438,"LIE","Liechtenstein",1876,NA,NA
+438,"LIE","Liechtenstein",1877,NA,NA
+438,"LIE","Liechtenstein",1878,NA,NA
+438,"LIE","Liechtenstein",1879,NA,NA
+438,"LIE","Liechtenstein",1880,NA,NA
+438,"LIE","Liechtenstein",1881,NA,NA
+438,"LIE","Liechtenstein",1882,NA,NA
+438,"LIE","Liechtenstein",1883,NA,NA
+438,"LIE","Liechtenstein",1884,NA,NA
+438,"LIE","Liechtenstein",1885,NA,NA
+438,"LIE","Liechtenstein",1886,NA,NA
+438,"LIE","Liechtenstein",1887,NA,NA
+438,"LIE","Liechtenstein",1888,NA,NA
+438,"LIE","Liechtenstein",1889,NA,NA
+438,"LIE","Liechtenstein",1890,NA,NA
+438,"LIE","Liechtenstein",1891,NA,NA
+438,"LIE","Liechtenstein",1892,NA,NA
+438,"LIE","Liechtenstein",1893,NA,NA
+438,"LIE","Liechtenstein",1894,NA,NA
+438,"LIE","Liechtenstein",1895,NA,NA
+438,"LIE","Liechtenstein",1896,NA,NA
+438,"LIE","Liechtenstein",1897,NA,NA
+438,"LIE","Liechtenstein",1898,NA,NA
+438,"LIE","Liechtenstein",1899,NA,NA
+438,"LIE","Liechtenstein",1900,NA,NA
+438,"LIE","Liechtenstein",1901,NA,NA
+438,"LIE","Liechtenstein",1902,NA,NA
+438,"LIE","Liechtenstein",1903,NA,NA
+438,"LIE","Liechtenstein",1904,NA,NA
+438,"LIE","Liechtenstein",1905,NA,NA
+438,"LIE","Liechtenstein",1906,NA,NA
+438,"LIE","Liechtenstein",1907,NA,NA
+438,"LIE","Liechtenstein",1908,NA,NA
+438,"LIE","Liechtenstein",1909,NA,NA
+438,"LIE","Liechtenstein",1910,NA,NA
+438,"LIE","Liechtenstein",1911,NA,NA
+438,"LIE","Liechtenstein",1912,NA,NA
+438,"LIE","Liechtenstein",1913,NA,NA
+438,"LIE","Liechtenstein",1914,NA,NA
+438,"LIE","Liechtenstein",1915,NA,NA
+438,"LIE","Liechtenstein",1916,NA,NA
+438,"LIE","Liechtenstein",1917,NA,NA
+438,"LIE","Liechtenstein",1918,NA,NA
+438,"LIE","Liechtenstein",1919,NA,NA
+438,"LIE","Liechtenstein",1920,NA,NA
+438,"LIE","Liechtenstein",1921,NA,NA
+438,"LIE","Liechtenstein",1922,NA,NA
+438,"LIE","Liechtenstein",1923,NA,NA
+438,"LIE","Liechtenstein",1924,NA,NA
+438,"LIE","Liechtenstein",1925,NA,NA
+438,"LIE","Liechtenstein",1926,NA,NA
+438,"LIE","Liechtenstein",1927,NA,NA
+438,"LIE","Liechtenstein",1928,NA,NA
+438,"LIE","Liechtenstein",1929,NA,NA
+438,"LIE","Liechtenstein",1930,NA,NA
+438,"LIE","Liechtenstein",1931,NA,NA
+438,"LIE","Liechtenstein",1932,NA,NA
+438,"LIE","Liechtenstein",1933,NA,NA
+438,"LIE","Liechtenstein",1934,NA,NA
+438,"LIE","Liechtenstein",1935,NA,NA
+438,"LIE","Liechtenstein",1936,NA,NA
+438,"LIE","Liechtenstein",1937,NA,NA
+438,"LIE","Liechtenstein",1938,NA,NA
+438,"LIE","Liechtenstein",1939,NA,NA
+438,"LIE","Liechtenstein",1940,NA,NA
+438,"LIE","Liechtenstein",1941,NA,NA
+438,"LIE","Liechtenstein",1942,NA,NA
+438,"LIE","Liechtenstein",1943,NA,NA
+438,"LIE","Liechtenstein",1944,NA,NA
+438,"LIE","Liechtenstein",1945,NA,NA
+438,"LIE","Liechtenstein",1946,NA,NA
+438,"LIE","Liechtenstein",1947,NA,NA
+438,"LIE","Liechtenstein",1948,NA,NA
+438,"LIE","Liechtenstein",1949,NA,NA
+438,"LIE","Liechtenstein",1950,374355000,"scaled"
+438,"LIE","Liechtenstein",1951,408555000,"scaled"
+438,"LIE","Liechtenstein",1952,407885000,"scaled"
+438,"LIE","Liechtenstein",1953,423970000,"scaled"
+438,"LIE","Liechtenstein",1954,453300000,"scaled"
+438,"LIE","Liechtenstein",1955,487640000,"scaled"
+438,"LIE","Liechtenstein",1956,523280000,"scaled"
+438,"LIE","Liechtenstein",1957,543015000,"scaled"
+438,"LIE","Liechtenstein",1958,522285000,"scaled"
+438,"LIE","Liechtenstein",1959,563080000,"scaled"
+438,"LIE","Liechtenstein",1960,611755000,"scaled"
+438,"LIE","Liechtenstein",1961,664655000,"scaled"
+438,"LIE","Liechtenstein",1962,697020000,"scaled"
+438,"LIE","Liechtenstein",1963,729080000,"scaled"
+438,"LIE","Liechtenstein",1964,772420000,"scaled"
+438,"LIE","Liechtenstein",1965,790490000,"scaled"
+438,"LIE","Liechtenstein",1966,809345000,"scaled"
+438,"LIE","Liechtenstein",1967,836535000,"scaled"
+438,"LIE","Liechtenstein",1968,867355000,"scaled"
+438,"LIE","Liechtenstein",1969,916705000,"scaled"
+438,"LIE","Liechtenstein",1970,977800000,"scaled"
+438,"LIE","Liechtenstein",1971,1017770000,"scaled"
+438,"LIE","Liechtenstein",1972,1050690000,"scaled"
+438,"LIE","Liechtenstein",1973,1081750000,"scaled"
+438,"LIE","Liechtenstein",1974,1096745000,"scaled"
+438,"LIE","Liechtenstein",1975,993775000,"scaled"
+438,"LIE","Liechtenstein",1976,982485000,"scaled"
+438,"LIE","Liechtenstein",1977,1002940000,"scaled"
+438,"LIE","Liechtenstein",1978,1020280000,"scaled"
+438,"LIE","Liechtenstein",1979,1056320000,"scaled"
+438,"LIE","Liechtenstein",1980,1108425000,"scaled"
+438,"LIE","Liechtenstein",1981,1108670000,"scaled"
+438,"LIE","Liechtenstein",1982,1102545000,"scaled"
+438,"LIE","Liechtenstein",1983,1112925000,"scaled"
+438,"LIE","Liechtenstein",1984,1126880000,"scaled"
+438,"LIE","Liechtenstein",1985,1154915000,"scaled"
+438,"LIE","Liechtenstein",1986,1223805000,"scaled"
+438,"LIE","Liechtenstein",1987,1248470000,"scaled"
+438,"LIE","Liechtenstein",1988,1273435000,"scaled"
+438,"LIE","Liechtenstein",1989,1332205000,"scaled"
+438,"LIE","Liechtenstein",1990,1405875000,"scaled"
+438,"LIE","Liechtenstein",1991,1386240000,"scaled"
+438,"LIE","Liechtenstein",1992,1395785000,"scaled"
+438,"LIE","Liechtenstein",1993,1417050000,"scaled"
+438,"LIE","Liechtenstein",1994,1288240330.725,"scaled"
+438,"LIE","Liechtenstein",1995,1311274696.41,"scaled"
+438,"LIE","Liechtenstein",1996,1329322924.215,"scaled"
+438,"LIE","Liechtenstein",1997,1384806969.135,"scaled"
+438,"LIE","Liechtenstein",1998,1228542815.776,"scaled"
+438,"LIE","Liechtenstein",1999,1398768568.353,"scaled"
+438,"LIE","Liechtenstein",2000,1417848262.605,"scaled"
+438,"LIE","Liechtenstein",2001,1413928465.893,"scaled"
+438,"LIE","Liechtenstein",2002,1418886841.221,"scaled"
+438,"LIE","Liechtenstein",2003,4620569935.743,"scaled"
+438,"LIE","Liechtenstein",2004,4796525901.087,"scaled"
+438,"LIE","Liechtenstein",2005,5213243997.843,"scaled"
+438,"LIE","Liechtenstein",2006,5582748849.336,"scaled"
+438,"LIE","Liechtenstein",2007,4661345234.92,"scaled"
+438,"LIE","Liechtenstein",2008,4939540800.98,"scaled"
+438,"LIE","Liechtenstein",2009,4932975967.44,"scaled"
+438,"LIE","Liechtenstein",2010,5111615663.58,"scaled"
+438,"LIE","Liechtenstein",2011,5635165599.06,"scaled"
+438,"LIE","Liechtenstein",2012,5979756042.904,"scaled"
+438,"LIE","Liechtenstein",2013,5968337944.198,"scaled"
+438,"LIE","Liechtenstein",2014,6123698959.378,"scaled"
+438,"LIE","Liechtenstein",2015,6164826992.513,"scaled"
+438,"LIE","Liechtenstein",2016,6278685610.666,"scaled"
+438,"LIE","Liechtenstein",2017,6473978774.326,"scaled"
+438,"LIE","Liechtenstein",2018,6615748300.427,"scaled"
+438,"LIE","Liechtenstein",2019,6727319139.24,"scaled"
+438,"LIE","Liechtenstein",2020,NA,NA
+438,"LIE","Liechtenstein",2021,NA,NA
+492,"MCO","Monaco",1861,NA,NA
+492,"MCO","Monaco",1862,NA,NA
+492,"MCO","Monaco",1863,NA,NA
+492,"MCO","Monaco",1864,NA,NA
+492,"MCO","Monaco",1865,NA,NA
+492,"MCO","Monaco",1866,NA,NA
+492,"MCO","Monaco",1867,NA,NA
+492,"MCO","Monaco",1868,NA,NA
+492,"MCO","Monaco",1869,NA,NA
+492,"MCO","Monaco",1870,NA,NA
+492,"MCO","Monaco",1871,NA,NA
+492,"MCO","Monaco",1872,NA,NA
+492,"MCO","Monaco",1873,NA,NA
+492,"MCO","Monaco",1874,NA,NA
+492,"MCO","Monaco",1875,NA,NA
+492,"MCO","Monaco",1876,NA,NA
+492,"MCO","Monaco",1877,NA,NA
+492,"MCO","Monaco",1878,NA,NA
+492,"MCO","Monaco",1879,NA,NA
+492,"MCO","Monaco",1880,NA,NA
+492,"MCO","Monaco",1881,NA,NA
+492,"MCO","Monaco",1882,NA,NA
+492,"MCO","Monaco",1883,NA,NA
+492,"MCO","Monaco",1884,NA,NA
+492,"MCO","Monaco",1885,NA,NA
+492,"MCO","Monaco",1886,NA,NA
+492,"MCO","Monaco",1887,NA,NA
+492,"MCO","Monaco",1888,NA,NA
+492,"MCO","Monaco",1889,NA,NA
+492,"MCO","Monaco",1890,NA,NA
+492,"MCO","Monaco",1891,NA,NA
+492,"MCO","Monaco",1892,NA,NA
+492,"MCO","Monaco",1893,NA,NA
+492,"MCO","Monaco",1894,NA,NA
+492,"MCO","Monaco",1895,NA,NA
+492,"MCO","Monaco",1896,NA,NA
+492,"MCO","Monaco",1897,NA,NA
+492,"MCO","Monaco",1898,NA,NA
+492,"MCO","Monaco",1899,NA,NA
+492,"MCO","Monaco",1900,NA,NA
+492,"MCO","Monaco",1901,NA,NA
+492,"MCO","Monaco",1902,NA,NA
+492,"MCO","Monaco",1903,NA,NA
+492,"MCO","Monaco",1904,NA,NA
+492,"MCO","Monaco",1905,NA,NA
+492,"MCO","Monaco",1906,NA,NA
+492,"MCO","Monaco",1907,NA,NA
+492,"MCO","Monaco",1908,NA,NA
+492,"MCO","Monaco",1909,NA,NA
+492,"MCO","Monaco",1910,NA,NA
+492,"MCO","Monaco",1911,NA,NA
+492,"MCO","Monaco",1912,NA,NA
+492,"MCO","Monaco",1913,NA,NA
+492,"MCO","Monaco",1914,NA,NA
+492,"MCO","Monaco",1915,NA,NA
+492,"MCO","Monaco",1916,NA,NA
+492,"MCO","Monaco",1917,NA,NA
+492,"MCO","Monaco",1918,NA,NA
+492,"MCO","Monaco",1919,NA,NA
+492,"MCO","Monaco",1920,NA,NA
+492,"MCO","Monaco",1921,NA,NA
+492,"MCO","Monaco",1922,NA,NA
+492,"MCO","Monaco",1923,NA,NA
+492,"MCO","Monaco",1924,NA,NA
+492,"MCO","Monaco",1925,NA,NA
+492,"MCO","Monaco",1926,NA,NA
+492,"MCO","Monaco",1927,NA,NA
+492,"MCO","Monaco",1928,NA,NA
+492,"MCO","Monaco",1929,NA,NA
+492,"MCO","Monaco",1930,NA,NA
+492,"MCO","Monaco",1931,NA,NA
+492,"MCO","Monaco",1932,NA,NA
+492,"MCO","Monaco",1933,NA,NA
+492,"MCO","Monaco",1934,NA,NA
+492,"MCO","Monaco",1935,NA,NA
+492,"MCO","Monaco",1936,NA,NA
+492,"MCO","Monaco",1937,NA,NA
+492,"MCO","Monaco",1938,NA,NA
+492,"MCO","Monaco",1939,NA,NA
+492,"MCO","Monaco",1940,NA,NA
+492,"MCO","Monaco",1941,NA,NA
+492,"MCO","Monaco",1942,NA,NA
+492,"MCO","Monaco",1943,NA,NA
+492,"MCO","Monaco",1944,NA,NA
+492,"MCO","Monaco",1945,NA,NA
+492,"MCO","Monaco",1946,NA,NA
+492,"MCO","Monaco",1947,NA,NA
+492,"MCO","Monaco",1948,NA,NA
+492,"MCO","Monaco",1949,NA,NA
+492,"MCO","Monaco",1950,241273594.404,"scaled"
+492,"MCO","Monaco",1951,263315658.564,"scaled"
+492,"MCO","Monaco",1952,262883840.348,"scaled"
+492,"MCO","Monaco",1953,273250700.056,"scaled"
+492,"MCO","Monaco",1954,292154025.84,"scaled"
+492,"MCO","Monaco",1955,314286320.672,"scaled"
+492,"MCO","Monaco",1956,337256471.744,"scaled"
+492,"MCO","Monaco",1957,349975773.972,"scaled"
+492,"MCO","Monaco",1958,336615189.468,"scaled"
+492,"MCO","Monaco",1959,362907762.784,"scaled"
+492,"MCO","Monaco",1960,394279033.924,"scaled"
+492,"MCO","Monaco",1961,428373337.844,"scaled"
+492,"MCO","Monaco",1962,449232735.696,"scaled"
+492,"MCO","Monaco",1963,469895559.584,"scaled"
+492,"MCO","Monaco",1964,497828397.616,"scaled"
+492,"MCO","Monaco",1965,509474599.352,"scaled"
+492,"MCO","Monaco",1966,521626737.356,"scaled"
+492,"MCO","Monaco",1967,539150822.868,"scaled"
+492,"MCO","Monaco",1968,559014460.804,"scaled"
+492,"MCO","Monaco",1969,590820772.684,"scaled"
+492,"MCO","Monaco",1970,630196793.44,"scaled"
+492,"MCO","Monaco",1971,655957650.296,"scaled"
+492,"MCO","Monaco",1972,677174748.312,"scaled"
+492,"MCO","Monaco",1973,697193067.4,"scaled"
+492,"MCO","Monaco",1974,706857416.876,"scaled"
+492,"MCO","Monaco",1975,640492757.62,"scaled"
+492,"MCO","Monaco",1976,633216298.428,"scaled"
+492,"MCO","Monaco",1977,646399644.112,"scaled"
+492,"MCO","Monaco",1978,657575357.344,"scaled"
+492,"MCO","Monaco",1979,680803310.336,"scaled"
+492,"MCO","Monaco",1980,714385232.94,"scaled"
+492,"MCO","Monaco",1981,714543136.616,"scaled"
+492,"MCO","Monaco",1982,710595544.716,"scaled"
+492,"MCO","Monaco",1983,717285504.54,"scaled"
+492,"MCO","Monaco",1984,726279569.024,"scaled"
+492,"MCO","Monaco",1985,744348261.092,"scaled"
+492,"MCO","Monaco",1986,788748196.764,"scaled"
+492,"MCO","Monaco",1987,804644907.656,"scaled"
+492,"MCO","Monaco",1988,820734969.988,"scaled"
+492,"MCO","Monaco",1989,858612517.084,"scaled"
+492,"MCO","Monaco",1990,906093185.7,"scaled"
+492,"MCO","Monaco",1991,893438333.952,"scaled"
+492,"MCO","Monaco",1992,899590132.268,"scaled"
+492,"MCO","Monaco",1993,1060649171.55,"scaled"
+492,"MCO","Monaco",1994,1090682372.925,"scaled"
+492,"MCO","Monaco",1995,1471275759.492,"scaled"
+492,"MCO","Monaco",1996,1491526222.758,"scaled"
+492,"MCO","Monaco",1997,1553780402.262,"scaled"
+492,"MCO","Monaco",1998,1425506152.028,"scaled"
+492,"MCO","Monaco",1999,1475065242.196,"scaled"
+492,"MCO","Monaco",2000,1422954499.935,"scaled"
+492,"MCO","Monaco",2001,1419020586.471,"scaled"
+492,"MCO","Monaco",2002,1423996818.887,"scaled"
+492,"MCO","Monaco",2003,1451551024.731,"scaled"
+492,"MCO","Monaco",2004,1160557214.949,"scaled"
+492,"MCO","Monaco",2005,1261385440.161,"scaled"
+492,"MCO","Monaco",2006,1350790048.872,"scaled"
+492,"MCO","Monaco",2007,1492191696.93,"scaled"
+492,"MCO","Monaco",2008,9261638630.22,"scaled"
+492,"MCO","Monaco",2009,8227279123.972,"scaled"
+492,"MCO","Monaco",2010,7921484507.672,"scaled"
+492,"MCO","Monaco",2011,8893789096.241,"scaled"
+492,"MCO","Monaco",2012,7706371277.448,"scaled"
+492,"MCO","Monaco",2013,8302113141.85,"scaled"
+492,"MCO","Monaco",2014,8954280247.484,"scaled"
+492,"MCO","Monaco",2015,8979633031.952,"scaled"
+492,"MCO","Monaco",2016,9145478498.464,"scaled"
+492,"MCO","Monaco",2017,9429940811.104,"scaled"
+492,"MCO","Monaco",2018,9636441061.808,"scaled"
+492,"MCO","Monaco",2019,9798954168.96,"scaled"
+492,"MCO","Monaco",2020,NA,NA
+492,"MCO","Monaco",2021,NA,NA
+520,"GUM","Nauru",1966,262728952.623,"scaled"
+520,"GUM","Nauru",1967,265310531.622,"scaled"
+520,"GUM","Nauru",1968,268223689.575,"scaled"
+520,"GUM","Nauru",1969,280089479.286,"scaled"
+520,"GUM","Nauru",1970,318292111.629,"scaled"
+520,"GUM","Nauru",1971,329850006.597,"scaled"
+520,"GUM","Nauru",1972,362936849.364,"scaled"
+520,"GUM","Nauru",1973,368336849.472,"scaled"
+520,"GUM","Nauru",1974,357015796.614,"scaled"
+520,"GUM","Nauru",1975,351142112.286,"scaled"
+520,"GUM","Nauru",1976,330844743.459,"scaled"
+520,"GUM","Nauru",1977,312844743.099,"scaled"
+520,"GUM","Nauru",1978,297023690.151,"scaled"
+520,"GUM","Nauru",1979,272392110.711,"scaled"
+520,"GUM","Nauru",1980,243568425.924,"scaled"
+520,"GUM","Nauru",1981,241057899.558,"scaled"
+520,"GUM","Nauru",1982,241034215.347,"scaled"
+520,"GUM","Nauru",1983,251194741.866,"scaled"
+520,"GUM","Nauru",1984,241531583.778,"scaled"
+520,"GUM","Nauru",1985,214886846.403,"scaled"
+520,"GUM","Nauru",1986,238073688.972,"scaled"
+520,"GUM","Nauru",1987,264055268.439,"scaled"
+520,"GUM","Nauru",1988,277223689.755,"scaled"
+520,"GUM","Nauru",1989,281889479.322,"scaled"
+520,"GUM","Nauru",1990,302826321.846,"scaled"
+520,"GUM","Nauru",1991,295342111.17,"scaled"
+520,"GUM","Nauru",1992,313507901.007,"scaled"
+520,"GUM","Nauru",1993,335913164.613,"scaled"
+520,"GUM","Nauru",1994,336552638.31,"scaled"
+520,"GUM","Nauru",1995,87648450.34,"scaled"
+520,"GUM","Nauru",1996,89631336.864,"scaled"
+520,"GUM","Nauru",1997,89114326.574,"scaled"
+520,"GUM","Nauru",1998,90732264.658,"scaled"
+520,"GUM","Nauru",1999,92891542.928,"scaled"
+520,"GUM","Nauru",2000,94685872.758,"scaled"
+520,"GUM","Nauru",2001,95736735.013,"scaled"
+520,"GUM","Nauru",2002,96183673.79,"scaled"
+520,"GUM","Nauru",2003,105275510.555,"scaled"
+520,"GUM","Nauru",2004,86349747.132,"scaled"
+520,"GUM","Nauru",2005,92857135.8,"scaled"
+520,"GUM","Nauru",2006,96231519.78,"scaled"
+520,"GUM","Nauru",2007,101960583.384,"scaled"
+520,"GUM","Nauru",2008,101384228.748,"scaled"
+520,"GUM","Nauru",2009,101793095.712,"scaled"
+520,"GUM","Nauru",2010,110885393.549,"scaled"
+520,"GUM","Nauru",2011,113210671.721,"scaled"
+520,"GUM","Nauru",2012,118144032.167,"scaled"
+520,"GUM","Nauru",2013,120773062.893,"scaled"
+520,"GUM","Nauru",2014,124166119.714,"scaled"
+520,"GUM","Nauru",2015,127787893.74,"scaled"
+520,"GUM","Nauru",2016,139805873.22,"scaled"
+520,"GUM","Nauru",2017,126007405.931,"scaled"
+520,"GUM","Nauru",2018,129733998.73,"scaled"
+520,"GUM","Nauru",2019,125599710.753,"scaled"
+520,"GUM","Nauru",2020,NA,NA
+520,"GUM","Nauru",2021,NA,NA
+520,"GUM","Nauru",2022,NA,NA
+520,"GUM","Nauru",2023,NA,NA
+580,"MNP","Northern Mariana Islands",1986,679766500,"scaled"
+580,"MNP","Northern Mariana Islands",1987,753951125,"scaled"
+580,"MNP","Northern Mariana Islands",1988,791550625,"scaled"
+580,"MNP","Northern Mariana Islands",1989,804872750,"scaled"
+580,"MNP","Northern Mariana Islands",1990,864653250,"scaled"
+580,"MNP","Northern Mariana Islands",1991,843283750,"scaled"
+580,"MNP","Northern Mariana Islands",1992,895152125,"scaled"
+580,"MNP","Northern Mariana Islands",1993,959125375,"scaled"
+580,"MNP","Northern Mariana Islands",1994,954620510.27,"scaled"
+580,"MNP","Northern Mariana Islands",1995,968056407.67,"scaled"
+580,"MNP","Northern Mariana Islands",1996,812806740.72,"scaled"
+580,"MNP","Northern Mariana Islands",1997,808118319.645,"scaled"
+580,"MNP","Northern Mariana Islands",1998,822790319.715,"scaled"
+580,"MNP","Northern Mariana Islands",1999,1416989688.36,"scaled"
+580,"MNP","Northern Mariana Islands",2000,1444360822.335,"scaled"
+580,"MNP","Northern Mariana Islands",2001,1450855667.685,"scaled"
+580,"MNP","Northern Mariana Islands",2002,1457628863.55,"scaled"
+580,"MNP","Northern Mariana Islands",2003,1595412368.475,"scaled"
+580,"MNP","Northern Mariana Islands",2004,1626402059.145,"scaled"
+580,"MNP","Northern Mariana Islands",2005,1748969069.25,"scaled"
+580,"MNP","Northern Mariana Islands",2006,585411088.29,"scaled"
+580,"MNP","Northern Mariana Islands",2007,620263051.212,"scaled"
+580,"MNP","Northern Mariana Islands",2008,616756877.814,"scaled"
+580,"MNP","Northern Mariana Islands",2009,619244163.216,"scaled"
+580,"MNP","Northern Mariana Islands",2010,634497515.862,"scaled"
+580,"MNP","Northern Mariana Islands",2011,557830338.273,"scaled"
+580,"MNP","Northern Mariana Islands",2012,627162826.677,"scaled"
+580,"MNP","Northern Mariana Islands",2013,648560899.371,"scaled"
+580,"MNP","Northern Mariana Islands",2014,807079743.47,"scaled"
+580,"MNP","Northern Mariana Islands",2015,855280487.805,"scaled"
+580,"MNP","Northern Mariana Islands",2016,1128257936.61,"scaled"
+580,"MNP","Northern Mariana Islands",2017,1149845422.11,"scaled"
+580,"MNP","Northern Mariana Islands",2018,1185392814.9,"scaled"
+580,"MNP","Northern Mariana Islands",2019,1192924448.73,"scaled"
+580,"MNP","Northern Mariana Islands",2020,NA,NA
+580,"MNP","Northern Mariana Islands",2021,NA,NA
